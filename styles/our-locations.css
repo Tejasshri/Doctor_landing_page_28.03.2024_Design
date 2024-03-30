@@ -79,6 +79,7 @@
 .our-location__center-name {
   font-size: 0.5454rem;
   color: var(--brandclr);
+  margin-bottom: 0;
 }
 
 .our-location__center-address {
@@ -259,9 +260,14 @@ button img {
 .our-location__cities-centers::-webkit-scrollbar-thumb {
   background: var(--brandclr);
   border-radius: 5px;
+  /* height: 20px !important; */
 }
 
 /* Handle on hover */
 .our-location__cities-centers::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.our-location__cities-centers::-webkit-scrollbar-button{
+  display: none;
 }

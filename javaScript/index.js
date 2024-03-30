@@ -2,7 +2,7 @@ const scrollEl = document.querySelector(".our-doctor__cards");
 const citiesButtonContainer = document.querySelector(".our-location__cities");
 const citiesCenterEl = document.querySelector(".our-location__cities-centers");
 const mapContainerEl = document.querySelector(".our-locations__map");
-const ourLocationsEl = document.querySelector('.our-locations');
+const ourLocationsEl = document.querySelector(".our-locations");
 
 function scrollToCenter() {
   const container = scrollEl;
@@ -30,9 +30,6 @@ function updateMap(currentUrl) {
   mapContainerEl.innerHTML = `
   <iframe src="${currentUrl}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   `;
-  console.log(`
-  <iframe src="${currentUrl}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  `);
 }
 
 function onClickCenter(event) {
@@ -71,7 +68,6 @@ function createCenterEl(center) {
 function updateCenter() {
   let centers = selectedCity.centers;
   citiesCenterEl.textContent = "";
-  console.log(centers);
   for (let center of centers) {
     const readyMadeEl = createCenterEl(center);
     citiesCenterEl.appendChild(readyMadeEl);
@@ -134,7 +130,6 @@ function getOurFormat(arr) {
     newArr.push(itemNew);
   }
 
-  console.log(newArr);
   return newArr;
 }
 
@@ -154,7 +149,7 @@ function getData() {
     };
     xhr.send();
   } catch (error) {
-    ourLocationsEl.textContent = "Opps! something went wrong"
+    ourLocationsEl.textContent = "Opps! something went wrong";
   }
 }
 
