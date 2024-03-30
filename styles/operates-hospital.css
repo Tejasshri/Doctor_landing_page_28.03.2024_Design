@@ -1,0 +1,53 @@
+.our-hospital-dr-purushottam-operates {
+  display: flex;
+  flex-direction: column;
+}
+.our-hospital-dr-purushottam-operates__header {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.our-hospital-dr-purushottam-operates .resuable-head-title {
+  width: 14.227rem;
+  text-transform: capitalize;
+}
+
+.our-hospital-dr-purushottam-operates__logo-box img {
+  filter: grayscale(100%);
+}
+.our-hospital-dr-purushottam-operates__logo-box:hover img {
+  filter: initial;
+}
+
+.our-hospital-dr-purushottam-operates__logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
+.our-hospital-dr-purushottam-operates__logo-box {
+  width: 4.9rem;
+  height: 3.2727rem;
+  border-radius: rgb(196, 196, 196);
+  margin: 0.386rem;
+}
+
+@media screen and (min-width: 768px) {
+  .our-hospital-dr-purushottam-operates .resuable-head-title {
+    width: auto;
+    text-transform: capitalize;
+  }
+  .our-hospital-dr-purushottam-operates__logo-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .our-hospital-dr-purushottam-operates__logo-box {
+    width: 3.396rem;
+    height: 2.264rem;
+    border-radius: rgb(196, 196, 196);
+    margin: 0.415rem;
+  }
+}
