@@ -30,8 +30,10 @@
 .our-hospital-dr-purushottam-operates__logo-box {
   width: 4.9rem;
   height: 3.2727rem;
-  border-radius: rgb(196, 196, 196);
+  border-radius: .18rem;
   margin: 0.386rem;
+  border: 1px solid #d5d5d5;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {

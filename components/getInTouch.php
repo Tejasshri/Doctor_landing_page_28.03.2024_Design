@@ -7,9 +7,9 @@
             <p class="getintocuh__phonenumber"><img src="assets\getInTouchphoneicon.webp" alt="phone-icon"><span>+91 7032656153 / +91 9989835053</span></p>
         </div>
         <div class="getintouch__booknow__btn">
-            <button class="btn1">Book Now</button>
+            <button class="btn1"><a href="#redirectForm" style="all:inherit; margin-top:0;">Book Now</a></button>
             <button class="btn2">
-                <p>Book Your Appointment</p>
+                <p><a href="#redirectform" style="all:inherit;">Book Your Appointment</a></p>
             </button>
         </div>
     </div>

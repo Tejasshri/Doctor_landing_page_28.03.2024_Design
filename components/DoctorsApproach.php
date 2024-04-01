@@ -1,5 +1,4 @@
-
-<h1 class="doctors-approach-h1">Doctor’s<span> approach to treatment</span></h1>
+<h1 class="doctors-approach-h1" id="redirectform">Doctor’s<span> Approach To Treatment</span></h1>
 
 <section>
 
@@ -29,7 +28,7 @@
    </div>
 </div>
 </div>
-<div class="doctor__approach__form__container" >
+<div class="doctor__approach__form__container" id="redirectForm" >
  <div><img src="./assets/Phone-icon.webp" alt="phone-logo"> +91 7032656153 / 9989835053</div>
  <h1 style="text-align: center;">Book Your Appointment</h1>
 
@@ -43,4 +42,6 @@
 
 
 </section>
+
+
 
