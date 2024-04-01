@@ -35,7 +35,7 @@
 
 .our-locations__city-btn {
   width: 100%;
-  height: 0.9444rem;
+  height: 2.147rem;
   background-color: transparent;
   color: white;
   border-color: transparent;
@@ -195,7 +195,7 @@ button img {
   }
 
   .our-locations__city-btn {
-    height: 2rem;
+    height: 1.358rem;
     font-size: 0.3962rem;
     font-weight: 700;
     padding-left: 0.622641rem;
@@ -270,4 +270,10 @@ button img {
 
 .our-location__cities-centers::-webkit-scrollbar-button{
   display: none;
+}
+
+.our-locations__map iframe{
+  width: 100%;
+  height: 100% !important;
+  border-radius: initial !important;
 }

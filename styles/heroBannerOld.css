@@ -56,7 +56,7 @@ flex-direction: column;
 gap: 0.45rem;
 align-items: flex-end;
 position: absolute;
-left: 11.3rem;
+left: 11.81rem;
 top: 12rem;
 }
  .years-of-experience-container>div{
@@ -64,7 +64,7 @@ background-color: var(--brandClr);
 color: white;
 display: flex;
 align-items: center;
-width: 7.5rem;
+width: 6.95rem;
 height: 2.09rem;
 gap: 0.2rem;
 border-radius: 0.2rem 0 0 0.2rem;
@@ -74,26 +74,19 @@ border-radius: 0.2rem 0 0 0.2rem;
     font-size: 1rem;
     text-align: center;
     font-weight: 900;
-    margin-left: 0.3rem;
-    display: flex;
-    width: 4rem;
+    margin-left: 0.2rem;
 }
 .years-of-experience-container h2{
     font-size: 0.63rem;
     font-weight: 600;
-    margin-left: 0.75rem;
+    margin-left: 0.7rem;
 }
 .years-of-experience-container > div:first-child > h2 {
-margin-left: 0.39rem;
-}
-.years-of-experience-container > div:last-child > h2 {
-    margin-left: 0rem;
-    
-    }
-    
+margin-left: 0.6rem;
 
+}
 .years-of-experience-container > div:first-child > h1 {
-    margin-left: 1rem;
+    margin-left: 0.8rem;
     }
 .years__of__experience__vertical__line{
   display: none;
@@ -156,8 +149,6 @@ text-align: unset;
 .years-of-experience-container h1{
     font-weight: 700;
     margin-left: unset;
-    display: unset;
-    width: unset;
 }
 .years-of-experience-container h2{
     text-align: center;
@@ -168,10 +159,7 @@ text-align: unset;
     display: block;
 }
 .years-of-experience-container>div{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0;
+    display: unset;
     } 
 
 }

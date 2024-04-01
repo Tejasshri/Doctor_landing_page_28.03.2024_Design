@@ -16,20 +16,47 @@ MCh - Surgical Oncology (Osmania)</p>
 <div class="years-of-experience-container">
 
 <div>
-<h1>10+</h1>
+<h1><span id="yearsOfExperience">0</span> +</h1>
 <h2>Years of experience</h2>
 </div>
 <span class="years__of__experience__vertical__line"></span>
 
 <div>
-<h1>4000+</h1>
+<h1><span id="oncologySurgeries">0</span> +</h1>
 <h2>Oncology Surgeries</h2>
 </div>
 <span  class="years__of__experience__vertical__line"></span>
 
 <div>
-<h1>10000+</h1>
+<h1><span id="surgeryHours">0</span> +</h1>
 <h2>Surgery Hours</h2>
 </div>
-
 </div>
+
+<script>
+  function animateValue(id, start, end, duration) {
+    var range = end - start;
+    var current = start;
+    var increment = range / (duration / 1000); 
+    var obj = document.getElementById(id);
+    var startTime = null;
+
+    function updateValue(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var progress = timestamp - startTime;
+      current = start + increment * progress / 1000; 
+      if (current >= end) {
+        current = end;
+        clearInterval(timer);
+      }
+      obj.innerHTML = Math.floor(current);
+    }
+
+    var timer = setInterval(function() {
+      requestAnimationFrame(updateValue);
+    }, 0);
+  }
+  animateValue("yearsOfExperience", 0, 10, 1000);
+  animateValue("oncologySurgeries", 0, 4000, 1000);
+  animateValue("surgeryHours", 0, 10000, 1000);
+</script>
