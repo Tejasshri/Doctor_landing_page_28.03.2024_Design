@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./styles/patientReviewSection.css">
     <link rel="stylesheet" href="./styles/expertiseSection.css">
     <link rel="stylesheet" href="./styles/getInTouch..css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="shortcut icon" href="./assets/favicon.webp" type="image/x-icon">
     <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="./javaScript/index.js" defer></script>
@@ -40,7 +41,9 @@
         <?php include "./components/operatesHospital.php"; ?>
         <?php include "./components/ourLocations.php"; ?>
         <?php include "./components/ourTeam.php"; ?>
+        <?php include "./components/footer.php" ?>
     </div>
+
 </body>
 
 </html>

@@ -98,6 +98,8 @@
   border-radius: 0.2777rem;
   order: 1;
   overflow: hidden;
+  
+  background-color: rgb(197, 197, 197);
 }
 
 .our-location__center-buttons {
@@ -206,7 +208,6 @@ button img {
     width: 15.811rem;
     height: 11.32rem;
     margin-left: auto;
-    background-color: rgb(197, 197, 197);
     order: 2;
     flex-shrink: 0;
   }
