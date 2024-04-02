@@ -8,7 +8,7 @@
     <!-- Swiper JS -->
     <div class="swiper-main-container">
         <div class="swiper-button-next-custom">
-            <img src="assets\leftarrow.webp" alt="" />
+            <img src="assets\leftarrow.webp" alt="left-arrow" />
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="swiper-button-prev-custom">
-            <img src="assets\rightarrow.webp" alt="" />
+            <img src="assets\rightarrow.webp" alt="right-arrow" />
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

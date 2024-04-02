@@ -55,11 +55,11 @@ function createCenterEl(center) {
       </p>
       <div class="our-location__center-buttons" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
           <button class="outline-button" data-callUs-num="989" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
-              <img src="./assets/call-us-image.webp" alt="">
+              <img src="./assets/call-us-image.webp" alt="call us image">
               Call Us
           </button>
           <button class="filled-button" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
-              <img src="./assets/direction.webp" alt="">
+              <img alt="direction image" src="./assets/direction.webp" alt="">
               Directions
           </button>
       </div>

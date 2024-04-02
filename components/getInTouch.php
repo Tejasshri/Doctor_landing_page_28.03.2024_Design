@@ -1,5 +1,5 @@
 <div class="getintouch-main-container">
-    <img src="./assets/getintouchDoctor2.webp" alt="" />
+    <img src="./assets/getintouchDoctor2.webp" alt="doctor image" />
     <div>
         <div class="getinctouch__text__container">
             <h3>Get in touch with us</h3>
