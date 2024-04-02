@@ -1,8 +1,6 @@
-
-
 <div class="hero-banner-container">
 <div class="hero__banner__text">
-<h1>Best surgical oncologist in Hyderabad</h1>
+<h1>Best Surgical Oncologist in Hyderabad</h1>
 <h2>Dr. Purushotham Reddy K</h2>
 <h3>Surgical Oncologist, CION Cancer Clinics</h3>
 <p>MBBS, MS (ORL-HNS),   </br>

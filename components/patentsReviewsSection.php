@@ -45,6 +45,7 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
+            loop: true,
             spaceBetween: 20,
             keyboard: {
                 enabled: true,
@@ -93,7 +94,7 @@
                 <button class="popupbtn1" onclick="closeVideo()"><img src="assets/CancelButtonSmallDevices.webp" alt="cancel-button-icon" /></button>
                 <button class="popupbtn2" onclick="closeVideo()"><img src="assets/Cancel.webp" alt="cancel-button-icon" /></button>
                 <div class="popup-container">
-                <img src="assets/popupBanner.webp" alt="" />
+                <img src="assets/popupBanner.webp" alt="popup-banner-img" >      
                 <div class="popup__text__container">
                     <h3>To Know More About The Doctor</h3>
                     <form method="POST" action="components/formData.php">
@@ -116,8 +117,4 @@
             });
         }
     </script>
-
-
-
-
 </div>

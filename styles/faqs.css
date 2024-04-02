@@ -71,7 +71,7 @@
     position: relative;
     right: 1rem;
     font-size: 1.2rem;
-    bottom: 0.2rem;
+    bottom: 0.4rem;
     color: var(--brandClr);
   }
   .accordion {

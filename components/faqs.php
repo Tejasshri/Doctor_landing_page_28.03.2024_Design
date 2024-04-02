@@ -3,7 +3,7 @@
 <?php 
 $faqs_data = convertIntoArray($conn, "Select * from doctor_faqs;")
 ?>
-<h1 class="faqs-h1">FAQ’S </h1>
+<h1 class="faqs-h1">FAQ’s </h1>
 <div class="accordion">
     <?php foreach($faqs_data as $details): ?>
     <div class="accordion-item">
