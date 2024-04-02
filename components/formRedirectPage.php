@@ -1,6 +1,5 @@
 
-<?php  
-include("./connectDB.php");
+<?php  include("./connectDB.php");
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -23,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 //     echo "Timestamp: $timestamp<br>";
 
 
-    if (empty($errors)) {
+    if (empty($error)) {
         $sql = 'INSERT INTO leadform (name, phone, message, utm_source, utm_campaign, utm_medium, created_on,form_source) VALUES (?,?,?,?,?,?,?,?)';
         $queryPrepare = $conn->prepare($sql);
         $queryPrepare->bind_param('ssssssss', $name, $phone, $message, $utm_source,$utm_campaign,$utm_medium,$timestamp,$type );

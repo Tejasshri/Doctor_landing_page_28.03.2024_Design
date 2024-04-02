@@ -1,5 +1,5 @@
 <div class="patientsReview-main-section">
-    <h2>Patient Testimonials About
+    <h2>Patient testimonials about
         <br />
         <span>Dr. Purushottam Surgical Oncologist</span>
     </h2>
@@ -8,7 +8,7 @@
     <!-- Swiper JS -->
     <div class="swiper-main-container">
         <div class="swiper-button-next-custom">
-            <img src="assets/leftarrow.webp" alt="" />
+            <img src="assets\leftarrow.webp" alt="" />
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -18,12 +18,12 @@
                 if ($result->num_rows > 0) {
                     // Output data of each row
                     while ($row = $result->fetch_assoc()) {
-                        echo "<div class='swiper-slide'>";
+                        echo "<div class='swiper-slide' onclick='openVideo(\"" . $row['CarouselVideoLink'] . "\")' >";
                         echo "<img src='" . $row["carouselImageUrl"] . "' alt='Patient Image' />";
                         echo "<div>";
                         echo "<span>" . $row["CarouselText"] . "</span>"; // Assuming reviewText holds the surgery information
                         echo "<button onclick='openVideo(\"" . $row['CarouselVideoLink'] . "\")'>";
-                        echo "<img src='./assets/playIcon.webp' alt='Play Icon' />";
+                        echo "<img src='assets/playIcon.webp' alt='Play Icon' />";
                         echo "<span>Watch Full Video</span>";
                         echo "</button>";
                         echo "</div>";
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="swiper-button-prev-custom">
-            <img src="assets/rightarrow.webp" alt="" />
+            <img src="assets\rightarrow.webp" alt="" />
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -61,40 +61,38 @@
                 }
             }
         });
-    </script>
-    
-    
-    
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script>
-            // When the User Clicks On The Carousel Video Link This function Will get's triggered
-            function openVideo(videoUrl) {
-                // Display SweetAlert dialog with iframe content
-                const iframeHtml = `
+
+
+
+
+        // When the User Clicks On The Carousel Video Link This function Will get's triggered
+        function openVideo(videoUrl) {
+            // Display SweetAlert dialog with iframe content
+            const iframeHtml = `
                 <iframe width="90%" height="200" src="${videoUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <button class="iframe__button" onclick="closeVideo()">Close Video</button>`;
-                Swal.fire({
-                    html: iframeHtml,
-                    width: '95%',
-                    padding: '1rem',
-                    showCloseButton: false,
-                    showConfirmButton: false,
-                    showCloseButton: false,
-                });
-            }
+            Swal.fire({
+                html: iframeHtml,
+                width: '95%',
+                padding: '1rem',
+                showCloseButton: false,
+                showConfirmButton: false,
+                showCloseButton: false,
+            });
+        }
 
 
-            function closeVideo() {
-                Swal.close(); // Close the SweetAlert dialog
-            }
+        function closeVideo() {
+            Swal.close(); // Close the SweetAlert dialog
+        }
 
-            // When the User Clicks On The epertise Card Section Link This function Will get's triggered
+        // When the User Clicks On The epertise Card Section Link This function Will get's triggered
 
-            function displayPopup() {
-                const popupContainer = `
+        function displayPopup() {
+            const popupContainer = `
                 <button class="popupbtn1" onclick="closeVideo()"><img src="assets/CancelButtonSmallDevices.webp" alt="cancel-button-icon" /></button>
-                <button class="popupbtn2" onclick="closeVideo()"><img src="assets/Cancel.webp" alt="cancel-button-icon" /></button>
-                            <div class="popup-container">
+                <button class="popupbtn2" onclick="closeVideo()"><img src="assets/Cancel.webp" alt="cancel-button-icon" /></button>
+                <div class="popup-container">
                 <img src="assets/popupBanner.webp" alt="" />
                 <div class="popup__text__container">
                     <h3>To Know More About The Doctor</h3>
@@ -108,14 +106,18 @@
                 </div>
             </div>
     `;
-                Swal.fire({
-                    html: popupContainer,
-                    padding: '0px',
-                    showCloseButton: false,
-                    showConfirmButton: false,
-                });
-            }
-        </script>
+
+            Swal.fire({
+                html: popupContainer,
+                width: '100%',
+                padding: '0px',
+                showCloseButton: false,
+                showConfirmButton: false,
+            });
+        }
+    </script>
+
+
 
 
 </div>

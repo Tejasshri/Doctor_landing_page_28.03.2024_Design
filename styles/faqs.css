@@ -1,0 +1,92 @@
+.accordion-item {
+    width: 17.31rem;
+ 
+  }
+  
+  .accordion-title {
+    background-color: #EEEEEE;
+   height: 2.27rem;
+    cursor: pointer;
+    font-size: 0.53rem;
+    padding:0.7rem 0 0 0.5rem ; 
+    font-weight: 600;
+  }
+
+  .accordion-content {
+    display: none;
+   font-size: 0.53rem;
+   background-color: #F0D0DD;
+   padding:0rem 0 0.5rem 0.5rem;
+   position: relative;
+   bottom: 0.5rem;
+   font-weight: 400;
+ 
+  }
+  
+  .arrow {
+    float: right;
+    position: relative;
+    right: 1rem;
+    font-size: 1.2rem;
+    bottom: 0.5rem;
+    color: var(--brandClr);
+    
+  }
+  .accordion{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem ;
+    margin-top: 1rem;
+  }
+  .faqs-h1{
+    font-size: 1rem;
+    color: var(--brandClr);
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+
+  @media screen and (min-width:768px){
+    .accordion-item {
+        width: 31.62rem;
+     
+      }
+      
+      .accordion-title {
+        background-color: #EEEEEE;
+       height: 2.2rem;
+        cursor: pointer;
+        font-size: 0.62rem;
+        padding:0.65rem 0 0 0.5rem ; 
+        font-weight: 600;
+      }
+      
+      .accordion-content {
+        display: none;
+       font-size: 0.62rem;
+       background-color: #F0D0DD;
+       padding:0rem 0 0.5rem 0.5rem;
+       font-weight: 400;
+      }
+      
+      .arrow {
+        float: right;
+        position: relative;
+        right: 1rem;
+        font-size: 1.2rem;
+        bottom: 0.2rem;
+        color: var(--brandClr);
+        
+      }
+      .accordion{
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem ;
+      }
+      
+  }
+
