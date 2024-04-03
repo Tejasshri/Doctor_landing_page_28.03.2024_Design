@@ -34,7 +34,7 @@ function updateMap(currentUrl) {
 
 function onClickCenter(event) {
   let idText = event.target.id;
-  console.log(event.target)
+  console.log(event.target);
   let currentUrl = event.target.dataset.directionUrl;
   updateMap(currentUrl);
 }
@@ -43,8 +43,8 @@ function createCenterEl(center) {
   const centerEl = document.createElement("div");
   centerEl.classList.add("our-location__center");
   centerEl.id = center.centerId;
-  centerEl.onclick = onClickCenter; 
-  centerEl.setAttribute("data-direction-url", center.map_url)
+  centerEl.onclick = onClickCenter;
+  centerEl.setAttribute("data-direction-url", center.map_url);
 
   centerEl.innerHTML = `
       <h1 class="our-location__center-name" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
@@ -54,7 +54,7 @@ function createCenterEl(center) {
         ${center.address}
       </p>
       <div class="our-location__center-buttons" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
-          <button class="outline-button" data-callUs-num="989" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
+          <button class="outline-button" data-callUs-num="989" style="" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
               <img src="./assets/call-us-image.webp" alt="call us image">
               Call Us
           </button>
@@ -160,7 +160,6 @@ getData();
 
 let cities = citiAndData.map((each) => each.centers);
 
-
 setTimeout(() => {
-  console.clear()
+  console.clear();
 }, 5000);

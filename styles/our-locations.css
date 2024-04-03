@@ -35,12 +35,11 @@
 
 .our-locations__city-btn {
   width: 100%;
-  height: 2.147rem;
+  height: 2.147rem !important;
   background-color: transparent;
   color: white;
   border-color: transparent;
   font-size: 0.58857rem;
-  flex-grow: 1;
   text-align: left;
   padding-left: 0.857rem;
   font-weight: 700;
@@ -109,7 +108,7 @@
 
 .outline-button {
   background-color: white;
-  border: 1px solid var(--brandclr);
+  border: 1px solid var(--brandclr) !important;
   border-radius: 0.13888rem;
   width: 2.5rem;
   height: 0.784rem;
@@ -197,11 +196,10 @@ button img {
   }
 
   .our-locations__city-btn {
-    height: 1.358rem;
+    height: 1.358rem !important;
     font-size: 0.3962rem;
     font-weight: 700;
     padding-left: 0.622641rem;
-    flex-grow: 1;
   }
 
   .our-locations__map {
