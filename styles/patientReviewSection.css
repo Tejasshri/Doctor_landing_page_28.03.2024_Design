@@ -52,6 +52,7 @@
   line-height: 0.57rem;
   font-weight: 700;
   color: #000;
+  height: 0.59090rem;
 }
 
 .swiper-slide > div > button > img {
@@ -256,4 +257,8 @@ div:where(.swal2-container) div:where(.swal2-popup) {
     height: 11rem !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+}
+
+.swiper-wrapper{
+  justify-content: center;
 }

@@ -13,16 +13,17 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <?php
-                $sql = "SELECT * FROM patientreviews";
+                $sql = "";
+                $sql = "SELECT * FROM videos WHERE vcat = 1 AND vsubcat = 3";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
                     // Output data of each row
                     while ($row = $result->fetch_assoc()) {
-                        echo "<div class='swiper-slide' onclick='openVideo(\"" . $row['CarouselVideoLink'] . "\")' >";
-                        echo "<img src='" . $row["carouselImageUrl"] . "' alt='Patient Image' />";
+                        echo "<div class='swiper-slide' onclick='openVideo(\"" . $row['video_url'] . "\")' >";
+                        echo "<img src='" . $row["thumbnail_name"] . "' alt='Patient Image' />";
                         echo "<div>";
-                        echo "<span>" . $row["CarouselText"] . "</span>"; // Assuming reviewText holds the surgery information
-                        echo "<button onclick='openVideo(\"" . $row['CarouselVideoLink'] . "\")'>";
+                        echo "<span style='overflow:hidden;'>" . $row["title"] . "</span>"; // Assuming reviewText holds the surgery information
+                        echo "<button onclick='openVideo(\"" . $row['video_url'] . "\")'>";
                         echo "<img src='assets/playIcon.webp' alt='Play Icon' />";
                         echo "<span>Watch Full Video</span>";
                         echo "</button>";

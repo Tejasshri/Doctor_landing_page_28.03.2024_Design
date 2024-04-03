@@ -1,14 +1,14 @@
 
 
 <?php 
-$faqs_data = convertIntoArray($conn, "Select * from doctor_faqs;")
+$faqs_data = convertIntoArray($conn, "Select * from lp_faqs;")
 ?>
 <h1 class="faqs-h1">FAQ’s </h1>
 <div class="accordion">
     <?php foreach($faqs_data as $details): ?>
     <div class="accordion-item">
-        <div class="accordion-title"><span class="arrow">+</span> <?php echo $details["faqs_title"]; ?></div>
-        <div class="accordion-content"><?php echo $details["faqs_content"]; ?></div>
+        <div class="accordion-title"><span class="arrow">+</span> <?php echo $details["lp_question"]; ?></div>
+        <div class="accordion-content"><?php echo $details["lp_answer"]; ?></div>
     </div>
     <?php endforeach; ?>
 </div>
