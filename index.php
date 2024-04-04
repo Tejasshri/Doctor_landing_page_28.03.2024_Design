@@ -56,7 +56,6 @@
                 });
             }
 
-
             function closeVideo() {
                 Swal.close(); // Close the SweetAlert dialog
             }
