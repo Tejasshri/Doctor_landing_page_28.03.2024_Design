@@ -32,12 +32,13 @@
   height: 10.64rem !important;
   border-radius: 0.64rem;
   border: solid 0.031rem #d5d5d5;
+  overflow: hidden;
 }
 
 .swiper-slide > img {
   height: 8.56rem !important;
   width: 14.61rem !important;
-  border-radius: 0.64rem;
+  /* border-radius: 0.64rem; */
 }
 
 .swiper-slide > div {
