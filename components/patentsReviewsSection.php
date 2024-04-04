@@ -1,11 +1,11 @@
 <div class="patientsReview-main-section">
     <h2>Patient testimonials about
         <br />
-        <span>Dr. Purushottam Surgical Oncologist</span>
+        <span>Dr. Purushotham Surgical Oncologist</span>
     </h2>
     <p>We make sure our patients are empowered to take control of their health and make informed choices.
         Their words of appreciation keep us going.</p>
-    <!-- Swiper JS -->
+
     <div class="swiper-main-container">
         <div class="swiper-button-next-custom">
             <img src="assets\leftarrow.webp" alt="left-arrow" />
@@ -42,7 +42,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
+
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
@@ -64,12 +64,26 @@
             }
         });
 
+        document.addEventListener("DOMContentLoaded", function() {
+            var numSlides = swiper.slides.length;
+            let leftSideButton = document.querySelector(".swiper-button-next-custom");
+            let rightSideButton = document.querySelector(".swiper-button-prev-custom");
+
+            if (numSlides <= 3) {
+                leftSideButton.style.display = "none !important";
+                rightSideButton.style.display = "none !IM";
+            } else {
+                leftSideButton.style.display = "block";
+                rightSideButton.style.display = "block";
+            }
+        });
 
 
 
-        // When the User Clicks On The Carousel Video Link This function Will get's triggered
+
+
         function openVideo(videoUrl) {
-            // Display SweetAlert dialog with iframe content
+
             const iframeHtml = `
                 <iframe width="90%" height="200" src="${videoUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <button class="iframe__button" onclick="closeVideo()">Close Video</button>`;
@@ -85,10 +99,10 @@
 
 
         function closeVideo() {
-            Swal.close(); // Close the SweetAlert dialog
+            Swal.close();
         }
 
-        // When the User Clicks On The epertise Card Section Link This function Will get's triggered
+
 
         function displayPopup() {
             const popupContainer = `

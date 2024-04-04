@@ -13,7 +13,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
 
 <h1 class="doctors-approach-h1">Doctor’s<span> Approach to Treatment</span></h1>
 
-<section id="formSection" >
+<section id="formSection">
 
     <div class="doctor__approach__text">
         <div>
@@ -21,7 +21,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
 
             <div>
                 <h1>
-                    Dr. Purushottam is extremely talented surgeon known for providing <span> clear treatment options </span> and <span> strong moral support </span> to patients and their families.
+                    Dr. Purushotham is extremely talented surgeon known for providing <span> clear treatment options </span> and <span> strong moral support </span> to patients and their families.
                 </h1>
             </div>
         </div>

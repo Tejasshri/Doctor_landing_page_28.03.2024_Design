@@ -37,6 +37,7 @@
 .swiper-slide > img {
   height: 8.56rem !important;
   width: 14.61rem !important;
+  border-radius: 0.64rem;
 }
 
 .swiper-slide > div {
@@ -49,16 +50,17 @@
 
 .swiper-slide > div > span {
   font-size: 0.48rem;
-  line-height: 0.57rem;
+  line-height: 0.35rem;
   font-weight: 700;
   color: #000;
-  height: 0.59090rem;
+  /* height: 0.59090rem; */
 }
 
 .swiper-slide > div > button > img {
   width: 0.64rem;
   height: 0.64rem;
   margin-right: 0.25rem;
+  border-radius: 0.64rem;
 }
 
 .swiper-main-container {
@@ -257,8 +259,10 @@ div:where(.swal2-container) div:where(.swal2-popup) {
     height: 11rem !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-}
-
-.swiper-wrapper{
-  justify-content: center;
+  .swiper-wrapper {
+    justify-content: center;
+  }
+  .swiper-button-lock {
+    display: none !important;
+  }
 }

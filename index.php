@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="dr. purushottam landing page" content="landing page">
-    <title>Dr Purushottam</title>
+    <title>Dr Purushotham reddy k</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/our-locations.css">
     <link rel="stylesheet" href="./styles/operates-hospital.css">

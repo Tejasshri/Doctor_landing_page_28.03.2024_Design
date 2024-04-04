@@ -1,21 +1,19 @@
 <?php
-// Include the database connection file
 $sql = "SELECT * FROM surgicalareaexpertise";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    // Output data of each row
-    echo "<div class='typesofcancer__subcontainer'>"; // Start typesofcancer__subcontainer div outside the loop
+
+    echo "<div class='typesofcancer__subcontainer'>";
     while ($row = $result->fetch_assoc()) {
         echo "<div class='typesofCancer__Card' onclick='displayPopup()'>";
-        // Use proper array keys to access data from the database
-        echo "<img src='" . $row["cardimageUrl"] . "' alt='" . $row["cardText"] . "' />"; // Fix image source and alt attribute
-        echo "<p>" . $row["cardText"] . "</p>"; // Fix paragraph content
-        // Display other relevant data fields as needed
+
+        echo "<img src='" . $row["cardimageUrl"] . "' alt='" . $row["cardText"] . "' />";
+        echo "<p>" . $row["cardText"] . "</p>";
         echo "<hr>";
-        echo "</div>"; // Close typesofCancer__Card div
+        echo "</div>";
     }
-    echo "</div>"; // Close typesofcancer__subcontainer div
+    echo "</div>";
 } else {
     echo "No data found";
 }

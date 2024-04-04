@@ -1,7 +1,7 @@
 <div class="our-hospital-dr-purushottam-operates">
     <div class="our-hospital-dr-purushottam-operates__header">
         <h1 class="resuable-head-title">
-        Cancer Surgery Hospitals where <span>Dr. Purushotham Operates</span>
+        Cancer Surgery Hospitals where <span>Dr. Purushottam Operates</span>
         </h1>
        
     </div>
