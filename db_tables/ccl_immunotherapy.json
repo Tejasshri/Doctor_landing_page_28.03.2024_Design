@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"id21984239_cion_db"},
+{"type":"table","name":"ccl_immunotherapy","database":"id21984239_cion_db","data":
+[
+{"id":"1","name":"testing","email":null,"phone":"0123456789","city":null,"message":"hello world         ","source":"Dr.Purushotham-LandingPage","utm_campaign":"","utm_source":"","utm_medium":"","status":null,"created_on":"2024-04-04 11:41:01"}
+]
+}
+]

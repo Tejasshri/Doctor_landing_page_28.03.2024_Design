@@ -1,0 +1,20 @@
+[
+	{
+		"id" : 1,
+		"area_name" : "TG_north",
+		"status" : 1,
+		"area_state" : 1
+	},
+	{
+		"id" : 2,
+		"area_name" : "TG_south_east",
+		"status" : 1,
+		"area_state" : 1
+	},
+	{
+		"id" : 3,
+		"area_name" : "TG_west",
+		"status" : 1,
+		"area_state" : 1
+	}
+]
