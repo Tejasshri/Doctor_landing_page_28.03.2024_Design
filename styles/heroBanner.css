@@ -45,7 +45,7 @@
   right: 1rem;
 }
 
-.hero__banner__image {
+.hero-banner-container__image {
   position: relative;
   right: 2.38rem;
 }
@@ -93,7 +93,7 @@
 .years-of-experience-container > div:first-child > h1 {
   margin-left: 1rem;
 }
-.years__of__experience__vertical__line {
+.years-of-experience-container__vertical-container {
   display: none;
 }
 
@@ -130,7 +130,7 @@
     height: 15.86rem;
     position: unset;
   }
-  .hero__banner__text {
+  .hero-banner-container__text-container {
     position: relative;
     left: 4.02rem;
   }
@@ -160,7 +160,7 @@
     text-align: center;
     margin-left: unset;
   }
-  .years__of__experience__vertical__line {
+  .years-of-experience-container__vertical-container {
     border: 1px solid #f0d0dd;
     height: 2.39rem;
     display: block;

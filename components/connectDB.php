@@ -19,5 +19,5 @@ function convertIntoArray($conn,$query) {
 try {
     $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 } catch (Exception $e) {
-    echo "Oops! Something went wrong";
+    echo "Oops! Something Went Wrong";
 }

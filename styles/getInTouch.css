@@ -1,0 +1,122 @@
+.get-in-touch-main-container {
+  background-image: url("../assets/getintouchsmalldevicesBanner.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.56rem 0px;
+}
+
+.get-in-touch-main-container > img {
+  width: 3.13rem;
+  height: 3.31rem;
+  margin-right: 0.77rem;
+}
+
+.get-in-touch-main-container__text-container > h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0px;
+  position: relative;
+  top: 0.2rem;
+}
+
+.get-in-touch-main-container__text {
+  font-size: 0.63rem;
+  font-weight: 400;
+  margin-top: 0px;
+  color: white;
+  margin-bottom: 0px !important;
+}
+
+.get-in-touch-main-container__phone-number {
+  font-size: 0.63rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.get-in-touch-main-container__phone-number > img {
+  width: 0.54rem;
+  height: 0.54rem;
+  margin-right: 0.27rem;
+}
+
+.get-in-touch-main-container__buttons > .btn1 {
+  width: 3.5rem;
+  height: 1.092rem;
+  border-radius: 0.15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.63rem;
+  color: var(--brandClr);
+  font-weight: 600;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.get-in-touch-main-container__buttons > .btn2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .get-in-touch-main-container {
+    padding: 0.89rem 2.62rem;
+    height: 4.3rem;
+  }
+  .get-in-touch-main-container > div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .get-in-touch-main-container > img {
+    width: 2.92rem;
+    height: 2.92rem;
+  }
+
+  .get-in-touch-main-container__text {
+    font-size: 0.62rem;
+  }
+  .get-in-touch-main-container__phone-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+  .get-in-touch-main-container__phone-number > img {
+    width: 0.98rem;
+    height: 0.98rem;
+  }
+
+  .get-in-touch-main-container__buttons > .btn1 {
+    display: none !important;
+  }
+
+  .get-in-touch-main-container__buttons > .btn2 {
+    height: 1.15rem;
+    border-radius: 0.15rem;
+    padding: 0.301rem 0.54rem;
+    background-color: var(--brandClr);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    align-items: center;
+  }
+
+  .get-in-touch-main-container__buttons > .btn2 > p {
+    width: 6.39rem;
+    font-size: 0.62rem;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+  }
+}

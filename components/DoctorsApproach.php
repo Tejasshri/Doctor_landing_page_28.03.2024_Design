@@ -14,8 +14,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
 <h1 class="doctors-approach-h1">Doctor’s<span> Approach to Treatment</span></h1>
 
 <section id="formSection">
-
-    <div class="doctor__approach__text">
+    <div class="doctor-approach-text">
         <div>
             <img src="./assets/cancerRibbon.webp" alt="cancerRibbon">
 
@@ -41,7 +40,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
             </div>
         </div>
     </div>
-    <div class="doctor__approach__form__container">
+    <div class="doctor-approach-form-container">
         <div><img src="./assets/Phone-icon.webp" alt="phone-logo"> <a href="tel:+917032656153" class="phone-number">+91 7032656153</a> / <a href="tel:+919989835053" class="phone-number">9989835053</a></div>
         <h1 style="text-align: center;">Book Your Appointment</h1>
         <!-- lead form -->

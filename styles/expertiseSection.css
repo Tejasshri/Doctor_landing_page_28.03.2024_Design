@@ -21,7 +21,7 @@
   font-size: 1rem;
 }
 
-.typesofcancer__subcontainer {
+.typesofcancer-subcontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -30,7 +30,7 @@
   margin-top: 1rem;
 }
 
-.typesofCancer__Card {
+.typesofcancer-subcontainer__card {
   width: 8.18rem;
   height: 9.63rem;
   position: relative;
@@ -45,14 +45,14 @@
     #00000026;
 }
 
-.typesofCancer__Card > img {
+.typesofcancer-subcontainer__card > img {
   width: 4.4rem;
   height: 4.4rem;
   position: absolute;
   top: 1.28rem;
 }
 
-.typesofCancer__Card > p {
+.typesofcancer-subcontainer__card > p {
   font-size: 1rem;
   font-weight: 600;
   height: 1.15rem;
@@ -89,7 +89,7 @@ div:where(.swal2-container) button:where(.swal2-close):hover {
   width: 16.81rem;
   height: 16.5rem;
 }
-.popup__text__container {
+.popup-container__text-container {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -99,13 +99,13 @@ div:where(.swal2-container) button:where(.swal2-close):hover {
   margin: 1.66rem 0px;
 }
 
-.popup__text__container > h3 {
+.popup-container__text-container > h3 {
   color: var(--brandClr);
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 0.7rem;
 }
-.popup__text__container > form {
+.popup-container__text-container > form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,7 +116,7 @@ div:where(.swal2-container) button:where(.swal2-close):hover {
   top: 0.8rem !important;
   left: -0.8rem !important;
 }
-.popup__text__container > form > input {
+.popup-container__text-container > form > input {
   width: 15.18rem;
   height: 2.07rem;
   background-color: #fff;
@@ -132,20 +132,20 @@ div:where(.swal2-container) button:where(.swal2-close):hover {
   box-shadow: 1px 1px 2px 0px #3e434740;
 }
 
-.popup__text__container > form > label {
+.popup-container__text-container > form > label {
   font-size: 1rem;
   font-weight: 600;
   color: #000 !important;
   margin: 0.65rem 0px;
 }
 
-.popup__text__container > form > input:focus {
+.popup-container__text-container > form > input:focus {
   border: none;
   outline: none;
 }
 
-.popup__text__container > form > button,
-.popup__text__container > form > a > button {
+.popup-container__text-container > form > button,
+.popup-container__text-container > form > a > button {
   background-color: var(--brandClr);
   width: 10.5rem;
   height: 2.81rem;
@@ -162,7 +162,7 @@ div:where(.swal2-container) button:where(.swal2-close):hover {
   font-weight: 600;
 }
 
-.popup__text__container > form > a {
+.popup-container__text-container > form > a {
   text-decoration: none;
   color: #fff;
 }
@@ -191,7 +191,7 @@ div:where(.swal2-container) div:where(.swal2-popup) {
 }
 
 @media screen and (min-width: 768px) {
-  .typesofcancer__subcontainer {
+  .typesofcancer-subcontainer {
     gap: 0.62rem;
   }
   .types-of-cancer-main-container h2,
@@ -202,7 +202,7 @@ div:where(.swal2-container) div:where(.swal2-popup) {
   .patientsReview-main-section br {
     display: none;
   }
-  .typesofCancer__Card {
+  .typesofcancer-subcontainer__card {
     width: 5.81rem;
     height: 6.58rem;
     border-radius: 0.26rem;
@@ -215,12 +215,12 @@ div:where(.swal2-container) div:where(.swal2-popup) {
   .swal2-html-container {
     width: 25.1rem;
   }
-  .typesofCancer__Card > img {
+  .typesofcancer-subcontainer__card > img {
     width: 3.37rem;
     height: 3.37rem;
     top: 0.6rem;
   }
-  .typesofCancer__Card > p {
+  .typesofcancer-subcontainer__card > p {
     font-size: 0.62rem;
     top: 4.61rem;
     width: 5.1rem;
@@ -237,25 +237,25 @@ div:where(.swal2-container) div:where(.swal2-popup) {
     width: 12.6rem;
     height: 100% !important;
   }
-  .popup__text__container {
+  .popup-container__text-container {
     height: 100%;
     margin: auto;
   }
 
-  .popup__text__container > h3 {
+  .popup-container__text-container > h3 {
     margin-top: 0.9rem;
     font-size: 0.74rem !important;
     margin-bottom: 0.43rem;
   }
-  .popup__text__container > form > input {
+  .popup-container__text-container > form > input {
     width: 10.9rem;
     height: 1.22rem;
     border-radius: 0.11rem;
     font-size: 0.47rem;
     margin-bottom: 0.64rem;
   }
-  .popup__text__container > form > button,
-  .popup__text__container > form > a > button {
+  .popup-container__text-container > form > button,
+  .popup-container__text-container > form > a > button {
     padding: 0.3rem 0.45rem;
     width: 5.03rem;
     height: 1.39rem;
@@ -288,7 +288,7 @@ div:where(.swal2-container) div:where(.swal2-popup) {
     height: 15.58rem !important; */
   }
 
-  .popup__text__container > form > label {
+  .popup-container__text-container > form > label {
     margin: 0.4rem 0 0.2rem 0px;
     position: relative;
     bottom: 0.35rem;

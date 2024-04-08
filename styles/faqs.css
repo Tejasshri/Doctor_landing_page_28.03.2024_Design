@@ -1,8 +1,8 @@
-.accordion-item {
+.accordion__item {
   width: 17.31rem;
 }
 
-.accordion-title {
+.accordion__title {
   background-color: #eeeeee;
   height: 2.27rem;
   cursor: pointer;
@@ -11,7 +11,7 @@
   font-weight: 600;
 }
 
-.accordion-content {
+.accordion__content {
   display: none;
   font-size: 0.53rem;
   background-color: #f0d0dd;
@@ -45,11 +45,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .accordion-item {
+  .accordion__item {
     width: 31.62rem;
   }
 
-  .accordion-title {
+  .accordion__title {
     background-color: #eeeeee;
     height: 2.2rem;
     cursor: pointer;
@@ -58,7 +58,7 @@
     font-weight: 600;
   }
 
-  .accordion-content {
+  .accordion__content {
     display: none;
     font-size: 0.62rem;
     background-color: #f0d0dd;

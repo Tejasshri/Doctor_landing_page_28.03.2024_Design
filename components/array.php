@@ -1,5 +1,5 @@
 <?php
-$purushottamOperatedHopitalsArray = array (
+$purushothamOperatedHopitalsArray = array (
     0 => 
     array (
       'id' => 1,

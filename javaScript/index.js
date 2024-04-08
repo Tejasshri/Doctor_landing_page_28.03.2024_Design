@@ -4,21 +4,6 @@ const citiesCenterEl = document.querySelector(".our-location__cities-centers");
 const mapContainerEl = document.querySelector(".our-locations__map");
 const ourLocationsEl = document.querySelector(".our-locations");
 
-function scrollToCenter() {
-  const container = scrollEl;
-  const cards = container.querySelectorAll(".our-doctor__cards");
-  const containerWidth = container.offsetWidth;
-  const cardsWidth = Array.from(cards).reduce(
-    (acc, card) => acc + card.offsetWidth,
-    0
-  );
-  const scrollPosition = (cardsWidth - containerWidth) / 2;
-  container.scrollLeft = scrollPosition;
-}
-
-window.addEventListener("resize", () => {
-  scrollToCenter();
-});
 
 let citiAndData = [];
 let selectedCity = {};

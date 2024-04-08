@@ -6,9 +6,9 @@ $faqs_data = convertIntoArray($conn, "Select * from lp_faqs;")
 <h1 class="faqs-h1">FAQ’s </h1>
 <div class="accordion">
     <?php foreach($faqs_data as $details): ?>
-    <div class="accordion-item">
-        <div class="accordion-title"><span class="arrow">+</span> <?php echo $details["lp_question"]; ?></div>
-        <div class="accordion-content"><?php echo $details["lp_answer"]; ?></div>
+    <div class="accordion__item">
+        <div class="accordion__title"><span class="arrow">+</span> <?php echo $details["lp_question"]; ?></div>
+        <div class="accordion__content"><?php echo $details["lp_answer"]; ?></div>
     </div>
     <?php endforeach; ?>
 </div>
@@ -16,21 +16,21 @@ $faqs_data = convertIntoArray($conn, "Select * from lp_faqs;")
 
   <script>
  document.addEventListener('DOMContentLoaded', function() {
-  const accordionItems = document.querySelectorAll('.accordion-item');
+  const accordionItems = document.querySelectorAll('.accordion__item');
 
   accordionItems.forEach(item => {
-    const title = item.querySelector('.accordion-title');
+    const title = item.querySelector('.accordion__title');
     const arrow = title.querySelector('.arrow');
-    const content = item.querySelector('.accordion-content');
+    const content = item.querySelector('.accordion__content');
 
     title.addEventListener('click', function() {
       const isOpen = content.style.display === 'block';
       
    
       accordionItems.forEach(otherItem => {
-        otherItem.querySelector('.accordion-content').style.display = 'none';
+        otherItem.querySelector('.accordion__content').style.display = 'none';
         otherItem.querySelector('.arrow').textContent = '+';
-        otherItem.querySelector('.accordion-title').style.backgroundColor = '#EEEEEE';
+        otherItem.querySelector('.accordion__title').style.backgroundColor = '#EEEEEE';
       });
 
       content.style.display = isOpen ? 'none' : 'block';
