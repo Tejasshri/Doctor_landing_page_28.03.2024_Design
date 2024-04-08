@@ -26,7 +26,7 @@
 
 <body>
     <?php include "./components/connectDB.php"; ?>
-    <?php include "./components/data.php"; ?>
+    <?php include "./components/array.php"; ?>
     <div class="main-app">
         <?php include("./components/navBar.php") ?>
         <?php include("./components/heroBanner.php") ?>
@@ -67,7 +67,7 @@
                 <button class="popupbtn1" onclick="closeVideo()"><img src="assets/CancelButtonSmallDevices.webp" alt="cancel-button-icon" /></button>
                 <button class="popupbtn2" onclick="closeVideo()"><img src="assets/Cancel.webp" alt="cancel-button-icon" /></button>
                 <div class="popup-container">
-                <img src="assets/popupBanner.webp" alt="" />
+                <img src="assets/popupBanner.webp" alt="popup image" />
                 <div class="popup__text__container">
                     <h3>To Know More About The Doctor</h3>
                     <form method="POST" action="components/formData.php">

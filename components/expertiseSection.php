@@ -1,19 +1,12 @@
-<?php
-$sql = "SELECT * FROM surgicalareaexpertise";
-$result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+<div class="typesofcancer__subcontainer">
+    <?php foreach($expertiseSection as $eachExpertiseCard) : ?>
+    <div class='typesofCancer__Card' onclick='displayPopup()'>
+    <img src="<?php echo $eachExpertiseCard[0];  ?>" alt="<?php echo $eachExpertiseCard[1]; ?>" >
+    <p><?php echo $eachExpertiseCard[1]; ?></p>
+</div>
+<?php endforeach; ?>
+</div>
 
-    echo "<div class='typesofcancer__subcontainer'>";
-    while ($row = $result->fetch_assoc()) {
-        echo "<div class='typesofCancer__Card' onclick='displayPopup()'>";
 
-        echo "<img src='" . $row["cardimageUrl"] . "' alt='" . $row["cardText"] . "' />";
-        echo "<p>" . $row["cardText"] . "</p>";
-        echo "<hr>";
-        echo "</div>";
-    }
-    echo "</div>";
-} else {
-    echo "No data found";
-}
+

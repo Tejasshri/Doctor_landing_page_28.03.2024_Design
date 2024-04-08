@@ -72,5 +72,19 @@ $purushottamOperatedHopitalsArray = array (
       'hospital_name' => 'Sushruto Hospital',
       'hospital_logo_path' => 'sushruta_logo.webp',
     ),
-  )
+  );
+  
+  
+  $expertiseSection = [
+    ["assets/breastCancer.webp","Breast Cancer"],
+    ["assets/Gynocology.webp","Gynecological Cancer"],
+    ["assets/Head an Neckoncology.webp","Head And Neck Cancer"],
+    ["assets/GI oncology.webp","GI Cancer"],
+    ["assets/Colon cancer.webp","Colon Cancer"],
+    ["assets/Stomach cancer.webp","Stomach Cancer"],
+    ["assets/Uro oncology.webp","Urinary Cancer"],
+    ["assets/Soft Tissue Sarcomas.webp","Soft Tissue Sarcomas"],
+    ["assets/Bone Tumours.webp","Bone Cancer"],
+    ["assets/Rectum Biopsy.webp","Rectum Cancer"]
+];
 ?>
