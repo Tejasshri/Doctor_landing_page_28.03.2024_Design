@@ -145,6 +145,6 @@ getData();
 
 let cities = citiAndData.map((each) => each.centers);
 
-setTimeout(() => {
-  console.clear();
-}, 5000);
+// setTimeout(() => {
+//   console.clear();
+// }, 5000);

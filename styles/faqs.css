@@ -1,8 +1,8 @@
-.accordion__item {
+.accordion-item {
   width: 17.31rem;
 }
 
-.accordion__title {
+.accordion-title {
   background-color: #eeeeee;
   height: 2.27rem;
   cursor: pointer;
@@ -11,7 +11,7 @@
   font-weight: 600;
 }
 
-.accordion__content {
+.accordion-content {
   display: none;
   font-size: 0.53rem;
   background-color: #f0d0dd;
@@ -45,11 +45,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .accordion__item {
+  .accordion-item {
     width: 31.62rem;
   }
 
-  .accordion__title {
+  .accordion-title {
     background-color: #eeeeee;
     height: 2.2rem;
     cursor: pointer;
@@ -58,12 +58,13 @@
     font-weight: 600;
   }
 
-  .accordion__content {
+  .accordion-content {
     display: none;
     font-size: 0.62rem;
     background-color: #f0d0dd;
     padding: 0rem 0 0.5rem 0.5rem;
     font-weight: 400;
+    padding-right: 1.7rem;
   }
 
   .arrow {
@@ -73,6 +74,8 @@
     font-size: 1.2rem;
     bottom: 0.4rem;
     color: var(--brandClr);
+    width: .6037rem;
+    text-align: center;
   }
   .accordion {
     display: flex;
