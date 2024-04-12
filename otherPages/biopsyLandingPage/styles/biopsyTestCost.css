@@ -1,0 +1,156 @@
+.biopsy-test-cost {
+  display: flex;
+  flex-direction: column;
+  gap: 1.22rem;
+  justify-content: center;
+  margin-top: 1.32rem;
+}
+.biopsy-test-cost__table th {
+  background-color: var(--brandClr);
+  color: white;
+  font-size: 0.63rem;
+  font-weight: 600;
+  border: 0;
+}
+.biopsy-test-cost__table tr:first-child {
+  width: 20rem;
+  height: 1.94rem;
+}
+.biopsy-test-cost__table td {
+  font-size: 1rem;
+  width: 8.89rem;
+}
+.biopsy-test-cost__table {
+  width: 17.9rem;
+  height: 13.4rem;
+  font-weight: 600;
+  margin-left: 0.45rem;
+}
+.biopsy-test-cost__table__td {
+  color: var(--brandClr);
+  text-align: center;
+  width: 8.98rem;
+}
+.biopsy-test-cost__text h1 {
+  color: var(--brandClr);
+  font-size: 1rem;
+  position: relative;
+  bottom: 0.4rem;
+  text-align: center;
+}
+
+.biopsy-test-cost__text p {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 16rem;
+  line-height: 1.25rem;
+  margin-left: 1.36rem;
+}
+
+.biopsy-test-cost__text:nth-child(2) {
+  margin-top: 0.45rem;
+}
+
+.biopsy-test-cost__table__td1 {
+  padding-left: 0.5rem;
+}
+.biopsy-test-cost__text__p2 {
+  padding: 0.52rem 0 0.52rem 0;
+}
+
+.biopsy-test-cost__text button {
+  background-color: var(--brandClr);
+  font-size: 1rem;
+  border: none;
+  width: 12.31rem;
+  height: 2.59rem;
+  border-radius: 0.27rem;
+  font-weight: 700;
+  margin: 1rem 0 0 3.18rem;
+}
+
+.biopsy-test-cost__text span {
+  color: var(--brandClr);
+  font-weight: 400;
+}
+table,
+tr,
+td {
+  border: 0.01rem solid #000000;
+}
+table {
+  border-top: none;
+}
+.biopsy-test-cost__text b {
+  color: #000000;
+}
+.biopsy-test-cost__table__td > b {
+  font-size: 0.35rem;
+  position: relative;
+  left: 0.2rem;
+  top: 0.5rem;
+}
+.biopsy-test-cost__table__td > span {
+  position: relative;
+  left: 2rem;
+}
+
+.biopsy-test-cost__table-large-devices {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .biopsy-test-cost {
+    flex-direction: row !important;
+    gap: 1.88rem;
+    margin-top: 2.26rem;
+  }
+  .biopsy-test-cost__table td {
+    font-size: 0.62rem;
+    height: 1.773rem;
+    width: 10.03rem;
+  }
+  .biopsy-test-cost__table {
+    width: 20rem;
+    margin-left: 0;
+  }
+  .biopsy-test-cost__text h1 {
+    width: 9.94rem;
+    line-height: 1.26rem;
+    text-align: unset;
+    margin-top: 0.18rem;
+  }
+  .biopsy-test-cost__text p {
+    font-size: 0.62rem;
+    width: 9.56rem;
+    line-height: 0.72rem;
+    position: relative;
+    bottom: 0.35rem;
+    margin-left: 0rem;
+  }
+  .biopsy-test-cost__text button {
+    font-size: 0.62rem;
+    width: 7.45rem;
+    height: 1.07rem;
+    border-radius: 0.11rem;
+    font-weight: 600;
+    margin: 0rem;
+  }
+  .biopsy-test-cost__table__td > b {
+    font-size: 0.33rem;
+    position: relative;
+    left: 1.6rem;
+    top: 0.6rem;
+  }
+  .biopsy-test-cost__table__td > span {
+    position: relative;
+    left: 1.85rem;
+  }
+  .biopsy-test-cost__table-small-devices {
+    display: none !important;
+  }
+  .biopsy-test-cost__table-large-devices {
+    display: block;
+    height: 14.37rem;
+  }
+}

@@ -1,0 +1,78 @@
+.biopsy-process-container__accordion__item{
+  width: 17.31rem;
+}
+.biopsy-process-container h2{
+ font-size: 1rem;
+}
+.biopsy-process-container>h2>b{
+  color: var(--brandClr);
+}
+.biopsy-process-container__accordion__title {
+  background-color: #EEEEEE;
+ height: 2.27rem;
+  cursor: pointer;
+  font-size: 0.63rem;
+  padding:0.7rem 0 0 0.5rem ; 
+  font-weight: 600;
+  border-radius:0.18rem ;
+
+}
+.biopsy-process-container__arrow>img{
+  width: 0.77rem;
+  height: 0.77rem;   
+  position: relative;
+  top: 0.5rem;
+}
+.biopsy-process-container__accordion__content {
+  display: none;
+ font-size: 0.63rem;
+ background-color: #F0D0DD;
+ padding: 0rem 1.5rem 0.5rem 1rem;
+    position: relative;
+ bottom: 0.5rem;
+ font-weight: 400;
+ border-radius:0.18rem ;
+}
+.biopsy-process-container__accordion__item:focus{
+  border: none;
+  outline: none;
+}
+
+.biopsy-process-container__arrow {
+  float: right;
+  position: relative;
+  right: 1rem;
+  bottom: 0.5rem;
+}
+.biopsy-process-container{
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem ;
+  margin-top: 1rem;
+}
+
+
+@media screen and (min-width:768px){
+  .biopsy-process-container__accordion__item {
+    width: 26.62rem;
+    }
+    .biopsy-process-container__accordion__title {
+     height: 2.2rem;
+      font-size: 0.62rem;
+      padding:0.65rem 0 0 0.87rem ; 
+      border-radius:0.04rem ;
+    }
+    .biopsy-process-container__accordion__content {
+      padding: 0rem 1.7rem 0.5rem 1.5rem;
+      border-radius:0.04rem;
+    }     
+    .biopsy-process-container__arrow>img{
+      width: 0.85rem;
+      height: 0.85rem;   
+    }
+    .biopsy-process-container{
+      gap: 1rem ;
+    }
+}
