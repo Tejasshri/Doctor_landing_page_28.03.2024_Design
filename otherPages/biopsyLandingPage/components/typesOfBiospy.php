@@ -23,7 +23,7 @@
             <div class="popup-container__banner-image-section">
                 <h3>${title}</h3>
                 <p>${description}</p>
-                <h2>Please Fill the Form and our Team will reach out to you shortly</h2>
+                <h2>Please Fil the Form</h2>
             </div>
             <div class="popup-container__text-container">
                 <h3>To Know More About The Doctor</h3>
@@ -37,18 +37,11 @@
                     <button type="submit">Submit</button>
                     <label>Call us at:</label>
                     <a href="tel:1800 120 2676"><button type="button">1800 120 2676</button></a>
-                    <div class="popup-container__steps-container">
-                        <p>Step 1: <br/>
-                            <span> Share your Reports</span>
-                        </p>
-                        <p>Step 2: <br/>
-                            <span>Doctor Will review the reports</span>
-                        </p>
-                        <p>Step 3: <br/>
-                            <span>Our Team will get back to you with 
-Free Cost estimation</span>
-                        </p>
-                    </div>
+                    <div class="myDialog__fill-form hide-container">
+         <div><p class="myDialog__p">Step-1</p><p class="myDialog__p1">Share your Reports</p></div>
+         <div><p class="myDialog__p">Step-2</p><p class="myDialog__p1">Doctor will Review the reports</p></div>
+         <div><p class="myDialog__p">Step-3</p><p class="myDialog__p1">Get Free Cost Estimation</p></div>
+      </div>
                 </form>
             </div>
         </div>
