@@ -25,11 +25,11 @@
          </tr>
          <tr>
             <td class="biopsy-test-cost__table__td1">Ultrasound Guided Biopsy - Minor</td>
-            <td class="biopsy-test-cost__table__td">Rs.3,000/-</td>
+            <td class="biopsy-test-cost__table__td">Rs.2,999/-</td>
          </tr>
          <tr>
             <td class="biopsy-test-cost__table__td1">Ultrasound Guided Biopsy - Major</td>
-            <td class="biopsy-test-cost__table__td">Rs.6,000/</td>
+            <td class="biopsy-test-cost__table__td">Rs.5,999/-</td>
          </tr>
          <tr>
             <td class="biopsy-test-cost__table__td1">Surgical Biopsy</td>
@@ -82,7 +82,7 @@
 </section>
 
 <dialog id="myDialog">
-<img class="myDialog__img" onclick="dialog()" src="../assets/Md_Cancel.webp" alt="cancel-icon">
+<img class="myDialog__img" onclick="dialog()" src="assets/Md_Cancel.webp" alt="cancel-icon">
 
    <div class="myDialog__main-container">
      <div  class="myDialog__main-container-h1"> <h1>Please Fill the Form</h1>  

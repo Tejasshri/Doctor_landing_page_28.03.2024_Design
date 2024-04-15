@@ -24,6 +24,34 @@
     <script src="javascript/index.js" defer></script>
     <script src="javascript/location.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .banner__safety-hands-title {
+            width: 16.377rem;
+        }
+
+        .banner__safety-hands-section>p {
+            width: 17.6rem;
+        }
+
+        .banner__google-rating-box {
+            height: 3.6rem;
+        }
+
+        @media screen and (min-width: 768px) {
+            .banner__safety-hands-title {
+                width: 16.377rem;
+                width: auto;
+            }
+
+            .banner__safety-hands-section>p {
+                width: 21.47rem;
+            }
+
+            .banner__google-rating-box {
+                height: 2.94rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -101,18 +129,3 @@
 </body>
 
 </html>
-<style>
-    /* * {
-        border: 1px solid red;
-    } */
-
-    @media screen and (min-width: 768px) {
-        .banner__safety-hands-title {
-            width: 16.377rem;
-            width: auto;
-        }
-        .banner__safety-hands-section > p {
-            width: 21.47rem;
-        }
-    }
-</style>

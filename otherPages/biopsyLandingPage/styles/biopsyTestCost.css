@@ -97,7 +97,7 @@ table{
    }
    .biopsy-test-cost__table__td>span{
        position: relative;
-       left: 1.8rem;
+       left: 2rem;
    }
    
    .biopsy-test-cost__table-large-devices{
@@ -237,6 +237,9 @@ height: 1.07rem;
 border-radius: 0.11rem;
 font-weight: 600;
 margin: 0rem;
+}
+.biopsy-test-cost__text{
+    margin-top: 0.2rem;
 }
 .biopsy-test-cost__table__td>b{
  font-size: 0.33rem;

@@ -6,10 +6,10 @@
         Their words of appreciation keep us going.</p>
     <div class="swiper mySwiper">
         <div class="swiper-button-next-custom">
-            <img src="/assets/forward-btn.webp" alt="forward-btn" />
+            <img src="assets/forward-btn.webp" alt="forward-btn" />
         </div>
         <div class="swiper-button-prev-custom">
-            <img src="/assets/backward-btn.webp" alt="backward-btn" />
+            <img src="assets/backward-btn.webp" alt="backward-btn" />
         </div>
         <div class="swiper-wrapper swiper-active">
             <?php

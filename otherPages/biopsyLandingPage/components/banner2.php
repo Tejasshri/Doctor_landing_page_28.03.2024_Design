@@ -27,8 +27,8 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
     </form>
     <div class="banner__safety-hands-section">
         <h1 class="banner__safety-hands-title">
-            Efficient Biopsies Aiming at
-            <br><span>Minimizing Patient</span> Discomfort
+            Efficient Biopsies Aiming<br> at
+            <span>Minimizing Patient</span> Discomfort
         </h1>
         <p>Minimizing Side Effects by involving an Expert Oncologist rather than a generic Diagnostician</p>
         <div class="banner__specialilty-texts">

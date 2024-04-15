@@ -4,6 +4,21 @@ const citiesCenterEl = document.querySelector(".our-location__cities-centers");
 const mapContainerEl = document.querySelector(".our-locations__map");
 const ourLocationsEl = document.querySelector(".our-locations");
 
+function scrollToCenter() {
+  const container = scrollEl;
+  const cards = container.querySelectorAll(".our-doctor__cards");
+  const containerWidth = container.offsetWidth;
+  const cardsWidth = Array.from(cards).reduce(
+    (acc, card) => acc + card.offsetWidth,
+    0
+  );
+  const scrollPosition = (cardsWidth - containerWidth) / 2;
+  container.scrollLeft = scrollPosition;
+}
+
+window.addEventListener("resize", () => {
+  scrollToCenter();
+});
 
 let citiAndData = [];
 let selectedCity = {};
@@ -17,38 +32,60 @@ function updateMap(currentUrl) {
   `;
 }
 
+const onClickCenterCall = (event) => {
+  event.stopPropagation();
+  window.open("tel:18001202676", "_self");
+};
+
 function onClickCenter(event) {
+  if (event.target.nodeName === "IMG") {
+    return;
+  }
   let idText = event.target.id;
   console.log(event.target);
   let currentUrl = event.target.dataset.directionUrl;
   updateMap(currentUrl);
+
+  let allCenterEl = document.querySelectorAll(".our-location__center");
+  for (let currentEl of allCenterEl) {
+    currentEl.classList.remove("selected-center");
+  }
+  let activeCenterId = event.target.dataset.targetId;
+  let activeEl = document.getElementById(activeCenterId);
+  activeEl.classList.add("selected-center");
 }
 
+let myCenterId = 1112;
 function createCenterEl(center) {
   const centerEl = document.createElement("div");
   centerEl.classList.add("our-location__center");
-  centerEl.id = center.centerId;
+  if (myCenterId === 1112) {
+    centerEl.classList.add("selected-center");
+  }
+  centerEl.id = myCenterId; // center.centerId;
   centerEl.onclick = onClickCenter;
   centerEl.setAttribute("data-direction-url", center.map_url);
 
   centerEl.innerHTML = `
-      <h1 class="our-location__center-name" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
+      <h1 data-target-id="${myCenterId}" class="our-location__center-name" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
           ${center.center_name}
       </h1>
-      <p class="our-location__center-address" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
+      <p data-target-id="${myCenterId}" class="our-location__center-address" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
         ${center.address}
       </p>
-      <div class="our-location__center-buttons" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
-          <button class="outline-button" data-callUs-num="989" style="" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
+      <div data-target-id="${myCenterId}" class="our-location__center-buttons" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
+          <button  class="outline-button" data-callUs-num="989" style="" onclick="onClickCenterCall(event)" data-direction-url="${center.map_url}">
               <img src="./assets/call-us-image.webp" alt="call us image">
               Call Us
           </button>
-          <button class="filled-button" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
+          <button data-target-id="${myCenterId}" class="filled-button" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
               <img alt="direction image" src="./assets/direction.webp" alt="">
               Directions
           </button>
       </div>
   `;
+
+  myCenterId += 3;
 
   return centerEl;
 }
@@ -124,7 +161,7 @@ function getOurFormat(arr) {
 function getData() {
   var xhr = new XMLHttpRequest();
   try {
-    xhr.open("GET", "../components/ourLocationData.php", true);
+    xhr.open("GET", "components/ourLocationData.php", true);
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 200) {
         let data = getOurFormat(JSON.parse(xhr.responseText));

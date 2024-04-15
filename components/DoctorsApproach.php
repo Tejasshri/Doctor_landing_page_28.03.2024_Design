@@ -41,7 +41,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
         </div>
     </div>
     <div class="doctor-approach-form-container">
-        <div><img src="./assets/Phone-icon.webp" alt="phone-logo"> <a href="tel:+917032656153" class="phone-number">+91 7032656153</a> / <a href="tel:+919989835053" class="phone-number">9989835053</a></div>
+        <div><a style="" href="tel:18001202676"><img src="./assets/Phone-icon.webp" alt="phone-logo"></a> <a href="tel:+917032656153" class="phone-number">+91 7032656153</a> / <a href="tel:+919989835053" class="phone-number">9989835053</a></div>
         <h1 style="text-align: center;">Book Your Appointment</h1>
         <!-- lead form -->
         <form action="./components/formRedirectPage.php" method="POST" id="form__submit">

@@ -37,6 +37,7 @@
 .invisible-form-box {
   height: 22.727rem;
   background-color: var(--pinkClr);
+  background-color: white;
 }
 
 .banner__form {
@@ -44,6 +45,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #f2f2f2;
+  background-color: var(--pinkClr);
   height: 12.136rem;
   position: absolute;
   border-radius: 0.339rem;
