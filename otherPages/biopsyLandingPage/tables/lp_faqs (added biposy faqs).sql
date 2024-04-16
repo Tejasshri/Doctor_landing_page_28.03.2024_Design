@@ -1,0 +1,31 @@
+
+
+CREATE TABLE `lp_faqs` (
+  `lp_id` int(11) NOT NULL,
+  `lp_name` varchar(255) DEFAULT NULL,
+  `lp_question` text DEFAULT NULL,
+  `lp_answer` text DEFAULT NULL,
+  `status` tinyint(1) DEFAULT 1,
+  `created_on` datetime DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+INSERT INTO `lp_faqs` (`lp_id`, `lp_name`, `lp_question`, `lp_answer`, `status`, `created_on`) VALUES
+(1, 'dr.purushotham', 'Who is a Surgical Oncologist?', 'A Surgical Oncologist is a doctor who specializes in using surgery to treat cancer, removing tumors and cancerous tissues while aiming to preserve healthy tissue and function.', 1, '2024-04-04 06:07:41'),
+(2, 'dr.purushotham', 'Why is Dr. Purushotham the best surgical oncologist in Hyderabad?', 'With over 10+ years of experience and 4000+ cancer surgeries, Dr. Puroshotham is considered the best surgical oncologist in hyderabad.', 1, '2024-04-04 06:07:41'),
+(3, 'dr.purushotham', 'What types of cancers are treated using surgery?', 'Various types of cancers are treated using surgery depending on the stage, but the most common ones include breast cancer surgery, oral cancer surgery, lung cancer, and kidney cancer.', 1, '2024-04-04 06:07:41'),
+(4, 'dr.purushotham', 'Where can I find a Surgical Oncologist near me?', 'We have multiple centers where we provide the best cancer treatment and surgical options all around Hyderabad, in Kukatpally, Tolichowki, Masab Tank, Ameerpet, Erragadda, and Kompally.', 1, '2024-04-04 06:07:41'),
+(5, 'dr.purushotham', 'How can I get a free second opinion?', 'To get a free consultation or a free second opinion, call us at 18001202676 or fill out the form above, and we will get back to you with all the details regarding the free second opinion.', 1, '2024-04-04 06:07:41'),
+(6, 'dr.purushotham', 'When is cancer surgery recommended?', 'Cancer surgery is recommended when the cancer is at an early stage, confined to one area, and can be safely removed, offering the best chance for cure or symptom relief.', 1, '2024-04-04 06:07:41'),
+(7, 'dr.purushotham', 'What tests are required before cancer surgery?', 'Before cancer surgery, patients typically undergo tests such as imaging (PET CT, MRI, Ultrasound scans), biopsy, and blood tests to assess the cancer\'s extent and the patient\'s overall health.', 1, '2024-04-04 06:07:41'),
+(8, 'dr.purushotham', 'How do I need to prepare for cancer surgery?', 'To prepare for cancer surgery, patients may need to: Follow pre-surgery instructions provided by the surgical oncologist, such as fasting before the procedure. Inform the cancer surgeon about any medications they are taking, including supplements and over-the-counter drugs.', 1, '2024-04-04 06:07:41'),
+(9, 'biopsy_landing_page', 'What is the Biopsy test cost near me?', 'The biopsy test price can vary depending on several factors, including the type of biopsy required, the specific location where the procedure is performed, and any additional consultations or lab work involved. For accurate pricing details about the Biopsy Cost, we suggest reaching out to CION Cancer Clinics.', 1, '2024-04-08 07:34:08'),
+(10, 'biopsy_landing_page', 'How long does the Biopsy Procedure take?', 'The duration of a biopsy procedure can vary depending on the type of biopsy and the specific area being biopsied. Generally, a biopsy can take anywhere from 20 minutes to over an hour, including preparation time. Additionally, more complex procedures or multiple biopsies may take longer.', 1, '2024-04-08 07:34:08'),
+(11, 'biopsy_landing_page', 'Where can I get a Biopsy done in Hyderabad?', 'We have multiple biopsy test centers located throughout Hyderabad, including areas such as Ameerpet, Suchitra, Tolichowki, Kukatpally, Lakdikapul, and Erragadda.', 1, '2024-04-08 07:34:08'),
+(12, 'biopsy_landing_page', 'How long will it take for the results of the Biopsy to arrive?', 'It usually takes 3-6 days to receive biopsy results, depending solely on the complexity of the biopsy and laboratory processing time. At CION Cancer Clinics, we are committed to providing you with the biopsy results as soon as possible.', 1, '2024-04-08 07:34:08'),
+(13, 'biopsy_landing_page', 'When is a Biopsy recommended?', 'A biopsy is generally recommended when abnormalities such as lumps or lesions are present, or to diagnose various medical conditions (not limited to cancer) for treatment planning.', 1, '2024-04-08 07:34:08'),
+(14, 'biopsy_landing_page', 'Do all cancers require a Biopsy?', 'Not all cancers require a biopsy for diagnosis, but biopsies are a common and reliable method used to diagnose most types of cancer. The decision to perform a biopsy depends on the patient\'s needs, which are determined after a consultation with the doctor. Get a FREE consultation with our expert oncologists to learn more.', 1, '2024-04-08 07:34:08'),
+(15, 'biopsy_landing_page', 'How should one prepare for a biopsy procedure?', 'Inform the doctor beforehand about any medications you use regularly. You might be required to stop taking any blood-thinning medications, and in some cases, fasting for a couple of hours may be necessary. Contact our most experienced oncologists to receive proper guidance before the biopsy procedure if you have any other questions.', 1, '2024-04-16 05:47:10'),
+(16, 'biopsy_landing_page', 'Is the Biopsy Procedure painful?', 'The discomfort experienced during a biopsy procedure can vary depending on the type of biopsy and the specific area being sampled. Most biopsies may cause only minor discomfort or pressure, while others may involve brief pain or discomfort. Local anesthesia is often used to numb the area and minimize discomfort during the procedure.', 1, '2024-04-16 05:47:10'),
+(17, 'biopsy_landing_page', 'Are Biopsy results always accurate?', 'At CION Cancer Clinics, we provide the most accurate biopsy results performed by our experienced oncologists, and you\'ll receive results within 3 working days.', 1, '2024-04-16 05:47:10'),
+(18, 'biopsy_landing_page', 'What are the possible complications post-biopsy?', 'After a biopsy, possible complications include mild pain, bleeding, infection (signs of which include redness or swelling), rare damage to nearby structures, and very rare allergic reactions to medications or anesthesia.', 1, '2024-04-16 05:47:10');
