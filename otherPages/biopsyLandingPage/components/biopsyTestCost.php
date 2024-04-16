@@ -8,6 +8,10 @@
             <th>Biopsy Cost*</th>
          </tr>
          <tr>
+            <td class="biopsy-test-cost__table__td1">Biopsy Histopathology</td>
+            <td class="biopsy-test-cost__table__td">Rs.999/-</td>
+         </tr>
+         <tr>
             <td class="biopsy-test-cost__table__td1">Biopsy Procedure</td>
             <td class="biopsy-test-cost__table__td">Rs.1,999/-</td>
          </tr>
@@ -15,10 +19,7 @@
             <td class="biopsy-test-cost__table__td1">Biopsy with Gun (If needed)</td>
             <td class="biopsy-test-cost__table__td">Rs.2,999/-</td>
          </tr>
-         <tr>
-            <td class="biopsy-test-cost__table__td1">Biopsy and Histopathology</td>
-            <td class="biopsy-test-cost__table__td">Rs.999/-</td>
-         </tr>
+
          <tr>
             <td class="biopsy-test-cost__table__td1">CT Guided Biopsy</td>
             <td class="biopsy-test-cost__table__td">Rs.9,999/-</td>
