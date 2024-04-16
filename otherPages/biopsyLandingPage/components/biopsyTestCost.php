@@ -86,7 +86,7 @@
 </section>
 
 <dialog id="myDialog">
-   <img class="myDialog__img" onclick="dialog()" src="../assets/Md_Cancel.webp" alt="cancel-icon">
+   <img class="myDialog__img" onclick="dialog()" src="assets/Md_Cancel.webp" alt="cancel-icon">
 
    <div class="myDialog__main-container">
       <div class="myDialog__main-container-h1">
