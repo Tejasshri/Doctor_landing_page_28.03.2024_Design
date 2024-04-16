@@ -1,19 +1,19 @@
-.typesofbiopsy-container {
+.typesofbiopsy-container{
   text-align: center;
   padding: 0px 0.64rem;
-  margin-top: 1.77rem;
+  margin-top : 1.77rem;
 }
 
-.typesofbiopsy-container__cardscontainer {
+.typesofbiopsy-container__cardscontainer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 0.72rem;
-  margin-top: 1rem;
+  margin-top:1rem;
 }
 
-.typesofbiopsy-container__eachcard {
+.typesofbiopsy-container__eachcard{
   width: 8.18rem;
   height: 9.63rem;
   position: relative;
@@ -23,18 +23,18 @@
   align-items: center;
   background-color: #fff;
   border-radius: 0.35rem;
-  box-shadow: 0rem 0.07rem 0.328rem 0rem #9ea8bd4f;
-  box-shadow: 0.0244rem 0.0244rem 0.146rem 0px #00000026;
+  box-shadow: 0rem 0.07rem 0.328rem 0rem #9EA8BD4F;
+box-shadow: 0.0244rem 0.0244rem 0.146rem 0px #00000026;
 }
 
-.typesofbiopsy-container__eachcard > img {
+.typesofbiopsy-container__eachcard >  img{
   width: 4.4rem;
   height: 4.4rem;
   position: absolute;
   top: 1.28rem;
 }
 
-.typesofbiopsy-container__eachcard > p {
+.typesofbiopsy-container__eachcard > p{
   font-size: 1rem;
   font-weight: 600;
   width: 6.59rem;
@@ -46,41 +46,36 @@
   line-height: 1.13rem;
 }
 
-.hide-container {
-  margin: 1.56rem 0px !important;
-}
 
-@media screen and (min-width: 768px) {
-  .typesofbiopsy-container {
-    margin: 0rem 0rem 2.39rem 0rem;
-  }
-  .typesofbiopsy-container__cardscontainer {
-    gap: 0.81rem;
-  }
-  .typesofbiopsy-container h2 {
-    margin-bottom: 0.5rem;
-  }
-  .typesofbiopsy-container__eachcard {
-    width: 7.63rem;
-    height: 7.38rem;
-    border-radius: 0.26rem;
-    box-shadow: 0px 0.13rem 0.6066rem 0px #9ea8bd4f;
-    box-shadow: 0.0186rem 0.0186rem 0.1124rem 0px #00000026;
-  }
 
-  .typesofbiopsy-container__eachcard > img {
-    width: 3.37rem;
-    height: 3.37rem;
-    top: 1rem;
+@media screen and (min-width : 768px) {
+  .typesofbiopsy-container{
+      margin: 0rem 0rem  2.39rem 0rem;
   }
-  .typesofbiopsy-container__eachcard > p {
-    font-size: 0.62rem;
-    top: 5.22rem;
-    width: 5.71rem;
-    font-weight: 600;
-    line-height: 0.6rem;
+  .typesofbiopsy-container__cardscontainer{
+      gap: 0.81rem;
   }
-  .hide-container {
-    display: none;
+  .typesofbiopsy-container h2{
+      margin-bottom: 0.5rem;
+  }
+  .typesofbiopsy-container__eachcard{
+      width: 7.63rem;
+      height: 7.38rem;
+      border-radius: 0.26rem;
+      box-shadow: 0px 0.13rem 0.6066rem 0px #9EA8BD4F;
+      box-shadow: 0.0186rem 0.0186rem 0.1124rem 0px #00000026;
+  }
+  
+  .typesofbiopsy-container__eachcard > img{
+      width: 3.37rem;
+      height: 3.37rem;
+      top: 1rem;
+  }
+  .typesofbiopsy-container__eachcard > p{
+      font-size: 0.62rem;
+      top: 5.22rem;
+      width: 5.71rem;
+      font-weight: 600;
+      line-height: 0.6rem;
   }
 }

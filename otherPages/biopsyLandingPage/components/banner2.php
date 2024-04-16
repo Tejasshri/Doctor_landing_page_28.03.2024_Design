@@ -8,8 +8,8 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
 <div class="banner">
     <form class="banner__form" method="POST" action="components/formRedirectPage.php">
         <div class="banner__form-top">
-            <img src="assets/phoneImg.webp" alt="phone-icon">
-            <a style="all:unset;">+91 7032656153 / 9989835053</a>
+            <a style="all:unset; display:flex;align-items:center; justify-content: center;" href="tel:18001202676"><img src="assets/phoneImg.webp" alt="phone-icon"></a>
+            <span style="all:unset;"><a href="tel:7032656153" style="all:unset;">+91 7032656153</a> / <a style="all:unset;" href="tel:9989835053">9989835053</a></span>
         </div>
         <h1 class="banner__form-heading">Book Your <span style="color:var(--brandClr);">Biopsy Test Now !</span></h1>
 
@@ -34,7 +34,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
         <div class="banner__specialilty-texts">
             <p>
                 <img src="assets/banner-icon-1.webp" alt="cost image">
-                Biopsy Test cost starts&nbsp;<span>@Rs. 1999/-</span>
+                Biopsy Test cost starts&nbsp;<span>@Rs. 999/-</span>
             </p>
             <p>
                 <img src="assets/banner-icon-2.webp" alt="cost image">

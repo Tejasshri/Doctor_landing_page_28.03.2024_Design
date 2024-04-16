@@ -8,7 +8,7 @@ let isVisible = false;
 function updateAnimation() {
   if (isVisible) {
     if (window.innerWidth <= 768) {
-      animationBoxEl.style.width = "18.81rem";
+      animationBoxEl.style.width = "18.841rem";
       animationBoxEl.style.height = "12.245rem";
       // animationBoxEl.style.visibility = "visible";
       animationBoxEl.style.opacity = "1";

@@ -23,25 +23,20 @@
             <div class="popup-container__banner-image-section">
                 <h3>${title}</h3>
                 <p>${description}</p>
-                <h2>Please Fil the Form</h2>
             </div>
             <div class="popup-container__text-container">
-                <h3>To Know More About The Doctor</h3>
+                <h3>To Know More, Fill The Form</h3>
                 <form method="POST" action="components/formRedirectPage.php">
                 <input type="hidden" name="utm_source" id="utm_source" value="<?php echo $utm_source; ?>">
             <input type="hidden" name="utm_campaign" id="utm_campaign" value="<?php echo $utm_campaign; ?>">
             <input type="hidden" name="utm_medium" id="utm_medium" value="<?php echo $utm_medium; ?>">
             <input type="hidden" name="form_source" id="form_source" value="Biopsy Landing Page">
-                    <input name="username" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters" type="text" placeholder="Name" name="name" />
+           <input name="username" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters" type="text" placeholder="Name" name="name" />
                     <input name="userPassword" type="tel" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required" placeholder="Phone number" name="phone" />
                     <button type="submit">Submit</button>
                     <label>Call us at:</label>
                     <a href="tel:1800 120 2676"><button type="button">1800 120 2676</button></a>
-                    <div class="myDialog__fill-form hide-container">
-         <div><p class="myDialog__p">Step-1</p><p class="myDialog__p1">Share your Reports</p></div>
-         <div><p class="myDialog__p">Step-2</p><p class="myDialog__p1">Doctor will Review the reports</p></div>
-         <div><p class="myDialog__p">Step-3</p><p class="myDialog__p1">Get Free Cost Estimation</p></div>
-      </div>
+
                 </form>
             </div>
         </div>

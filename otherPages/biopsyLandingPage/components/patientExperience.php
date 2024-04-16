@@ -5,12 +5,12 @@
     <p>We make sure our patients are empowered to take control of their health and make informed choices.
         Their words of appreciation keep us going.</p>
     <div class="swiper mySwiper">
-        <div class="swiper-button-next-custom">
-            <img src="assets/forward-btn.webp" alt="forward-btn" />
+        <!-- <div class="swiper-button-next-custom">
+            <img src="/assets/forward-btn.webp" alt="forward-btn" />
         </div>
         <div class="swiper-button-prev-custom">
-            <img src="assets/backward-btn.webp" alt="backward-btn" />
-        </div>
+            <img src="/assets/backward-btn.webp" alt="backward-btn" />
+        </div> -->
         <div class="swiper-wrapper swiper-active">
             <?php
             foreach ($PatientExperiences as $details) : ?>

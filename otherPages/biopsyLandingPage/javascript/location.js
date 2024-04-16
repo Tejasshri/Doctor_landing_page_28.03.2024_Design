@@ -34,20 +34,17 @@ function updateMap(currentUrl) {
 
 const onClickCenterCall = (event) => {
   event.stopPropagation();
-  let call = confirm("Do you want to make a call to CION cancers");
-  if (call) window.open("tel:18001202676");
+  window.open("tel:18001202676", "_self");
 };
 
 function onClickCenter(event) {
-  if (event.target.nodeName === "IMG"){
-    return
+  if (event.target.nodeName === "IMG") {
+    return;
   }
   let idText = event.target.id;
   console.log(event.target);
   let currentUrl = event.target.dataset.directionUrl;
   updateMap(currentUrl);
-
-  
 
   let allCenterEl = document.querySelectorAll(".our-location__center");
   for (let currentEl of allCenterEl) {
@@ -55,14 +52,14 @@ function onClickCenter(event) {
   }
   let activeCenterId = event.target.dataset.targetId;
   let activeEl = document.getElementById(activeCenterId);
-  activeEl.classList.add("selected-center");;
+  activeEl.classList.add("selected-center");
 }
 
 let myCenterId = 1112;
 function createCenterEl(center) {
   const centerEl = document.createElement("div");
   centerEl.classList.add("our-location__center");
-  if (myCenterId === 1112){
+  if (myCenterId === 1112) {
     centerEl.classList.add("selected-center");
   }
   centerEl.id = myCenterId; // center.centerId;

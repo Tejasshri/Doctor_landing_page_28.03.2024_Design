@@ -25,55 +25,56 @@
     <script src="javascript/location.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
     <div class="main-app-container">
-    
-    <!-- connectDB -->
-   <?php include("components/connectDB.php") ?>
 
-    <!-- arrays -->
-    <?php include("components/array.php") ?>
+        <!-- connectDB -->
+        <?php include("components/connectDB.php") ?>
 
-    <!-- NavBar -->
-    <?php include("components/navBar.php") ?>
+        <!-- arrays -->
+        <?php include("components/array.php") ?>
 
-    <!-- heroBanner -->
-    <?php include("components/banner.php") ?>
+        <!-- NavBar -->
+        <?php include("components/navBar.php") ?>
 
-    <!-- Biopsy Test Cost in Hyderabad -->
-    <?php include("components/biopsyTestCost.php") ?>
+        <!-- heroBanner -->
+        <?php include("components/banner.php") ?>
 
-    <!-- whyCion -->
-    <?php include("components/whyCion.php") ?>
+        <!-- Biopsy Test Cost in Hyderabad -->
+        <?php include("components/biopsyTestCost.php") ?>
 
-    <!-- type of biopsy -->
-    <?php include("components/typesOfBiospy.php") ?>
+        <!-- whyCion -->
+        <?php include("components/whyCion.php") ?>
 
-    <!-- patientExperience -->
+        <!-- type of biopsy -->
+        <?php include("components/typesOfBiospy.php") ?>
 
-   <?php  include("components/patientExperience.php") ?>
+        <!-- patientExperience -->
 
-    <!-- get in touch -->
-    <?php include("components/getInTouch.php") ?>
+        <?php include("components/patientExperience.php") ?>
 
-    <!-- How is the Biopsy Process Done ? -->
-    <?php include("components/biopsyProcess.php") ?>
+        <!-- get in touch -->
+        <?php include("components/getInTouch.php") ?>
 
-    <!-- cost of biopsy -->
-    <?php include("components/costOfBiopsy.php") ?>
+        <!-- How is the Biopsy Process Done ? -->
+        <?php include("components/biopsyProcess.php") ?>
 
-    <?php include "components/ourLocations.php" ?>
+        <!-- cost of biopsy -->
+        <?php include("components/costOfBiopsy.php") ?>
 
-    <!-- faqs -->
-    <?php include("components/biopsyFaqs.php") ?>
+        <?php include "components/ourLocations.php" ?>
 
-    <!-- footer -->
-    <?php include("components/footer.php") ?>
+        <!-- faqs -->
+        <?php include("components/biopsyFaqs.php") ?>
+
+        <!-- footer -->
+        <?php include("components/footer.php") ?>
 
 
 
-</div>
- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
@@ -83,11 +84,10 @@
                 clickable: true,
                 KeyboardEvent: true
             },
-            navigation: {
-                nextEl: ".swiper-button-next-custom",
-                prevEl: ".swiper-button-prev-custom",
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
             },
-
             breakpoints: {
                 768: {
                     slidesPerView: 2,
@@ -98,4 +98,5 @@
     </script>
 
 </body>
+
 </html>

@@ -107,10 +107,16 @@
   font-size: .5rem;
 }
 
+.banner__form > input{
+  display: flex;
+  align-items: center;
+}
+
 .banner__form > input::placeholder {
   font-size: 0.622rem;
-  position: relative;
-  top: .11rem;
+  position: relatve;
+  /* top: .089rem; */
+
 }
 
 .banner__submit-btn {
@@ -161,6 +167,11 @@
 .banner__specialilty-texts {
   margin-top: .322rem;
 }
+@media screen and (max-width: 768px) {
+  .banner__specialilty-texts p:first-child{
+    margin-top: 1.5rem;
+  }
+}
 .banner__specialilty-texts > p {
   font-size: .9rem;
   font-weight: 600;
@@ -180,7 +191,7 @@
 .banner__rating-container{
   display: inline-flex;
   position: absolute;
-  bottom: 1rem;
+  bottom: 1.735rem;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -194,6 +205,8 @@
   height: 3.27735rem;
   border-radius: .33961rem;
   background-color: #373737;
+  background-color: transparent;
+  border: .04rem solid white;
 
 }
 .banner__google-rating-box:nth-child(2){
@@ -282,6 +295,11 @@
     width: 100%;
     height: 1.15rem;
     color: white;
+
+  }
+
+  .banner__form-top a {
+    cursor: pointer !important;
   }
   .banner__form-top img {
     height: 0.7rem;

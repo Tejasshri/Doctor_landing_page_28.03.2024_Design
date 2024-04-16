@@ -6,7 +6,7 @@ $biopsyProcess=[
     ["3. Positioning ","The patient is positioned appropriately to access the biopsy site comfortably.
 "],
     ["4. Sterilization ","The skin over the biopsy site is cleaned and sterilized to reduce the risk of infection."],
-    ["5.Biopsy Instrument Insertion ","A specialized tool, such as a needle, punch tool, or surgical instrument, is used to access the tissue sample."],
+    ["5. Biopsy Instrument Insertion ","A specialized tool, such as a needle, punch tool, or surgical instrument, is used to access the tissue sample."],
     ["6. Sample Collection ","The biopsy instrument collects a small sample of tissue from the target area. In needle biopsies, a syringe may be attached to withdraw fluid or tissue."],
     ["7. Hemostasis (if necessary) "," Any bleeding from the biopsy site is controlled using pressure, cauterization, or other hemostatic techniques."],
     ["8. Specimen Handling ","The collected tissue sample is carefully handled to preserve its integrity and prevent contamination."],

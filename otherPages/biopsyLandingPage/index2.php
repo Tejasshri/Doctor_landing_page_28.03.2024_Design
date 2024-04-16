@@ -37,6 +37,12 @@
             height: 3.6rem;
         }
 
+        @media screen and (max-width: 768px) {
+            .banner__specialilty-texts p:first-child {
+                margin-top: .4rem;
+            }
+        }
+
         @media screen and (min-width: 768px) {
             .banner__safety-hands-title {
                 width: 16.377rem;
@@ -112,11 +118,10 @@
                 clickable: true,
                 KeyboardEvent: true
             },
-            navigation: {
-                nextEl: ".swiper-button-next-custom",
-                prevEl: ".swiper-button-prev-custom",
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
             },
-
             breakpoints: {
                 768: {
                     slidesPerView: 2,

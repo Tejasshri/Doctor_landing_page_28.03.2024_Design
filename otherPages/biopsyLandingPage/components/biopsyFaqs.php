@@ -10,7 +10,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 <h1 class="faqs-h1">FAQs</h1>
 <div class="accordion-main-container">
     <div class="accordion">
-        <?php for ($i = 0; $i < 3; $i++) : ?>
+        <?php for ($i = 0; $i < 5; $i++) : ?>
             <div class="accordion-item <?php echo $i === $defaultIndex ? 'default-open' : ''; ?>">
                 <div class="accordion-title">
                     <p><?php echo $faq_array[$i]['lp_question']; ?></p>
@@ -22,7 +22,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     </div>
 
     <div style="margin-left: 0;" class="accordion">
-        <?php for ($i = 3; $i < count($faq_array); $i++) : ?>
+        <?php for ($i = 5; $i < count($faq_array); $i++) : ?>
             <div class="accordion-item <?php echo $i === $defaultIndex ? 'default-open' : ''; ?>">
                 <div class="accordion-title">
                     <p><?php echo $faq_array[$i]['lp_question']; ?></p>
