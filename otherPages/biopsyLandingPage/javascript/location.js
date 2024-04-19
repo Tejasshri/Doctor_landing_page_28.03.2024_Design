@@ -74,7 +74,7 @@ function createCenterEl(center) {
         ${center.address}
       </p>
       <div data-target-id="${myCenterId}" class="our-location__center-buttons" onclick="onClickCenter(event)" data-direction-url="${center.map_url}">
-          <button  class="outline-button" data-callUs-num="989" style="" onclick="onClickCenterCall(event)" data-direction-url="${center.map_url}">
+          <button  class="biopsy-location-call-us-btn-${myCenterId} outline-button" data-callUs-num="989" style="" onclick="onClickCenterCall(event)" data-direction-url="${center.map_url}">
               <img src="./assets/call-us-image.webp" alt="call us image">
               Call Us
           </button>

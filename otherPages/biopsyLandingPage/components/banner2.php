@@ -8,8 +8,8 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
 <div class="banner">
     <form class="banner__form" method="POST" action="components/formRedirectPage.php">
         <div class="banner__form-top">
-            <a style="all:unset; display:flex;align-items:center; justify-content: center;" href="tel:18001202676"><img src="assets/phoneImg.webp" alt="phone-icon"></a>
-            <span style="all:unset;"><a href="tel:7032656153" style="all:unset;">+91 7032656153</a> / <a style="all:unset;" href="tel:9989835053">9989835053</a></span>
+            <a class="biopsy-banner__call-link-1" style="all:unset; display:flex;align-items:center; justify-content: center;" href="tel:18001202676"><img src="assets/phoneImg.webp" alt="phone-icon"></a>
+            <span style="all:unset;"><a lass="biopsy-banner__call-link-2" href="tel:7032656153" style="all:unset;">+91 7032656153</a> / <a lass="biopsy-banner__call-link-3" style="all:unset;" href="tel:9989835053">9989835053</a></span>
         </div>
         <h1 class="banner__form-heading">Book Your <span style="color:var(--brandClr);">Biopsy Test Now !</span></h1>
 

@@ -209,7 +209,7 @@ div:where(.swal2-container) div:where(.swal2-popup) {
   }
   .popup-container__text-container {
     height: 100%;
-    margin: auto;
+    margin: auto
   }
 
   .popup-container__text-container > h3 {
