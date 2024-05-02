@@ -62,6 +62,9 @@
         <!-- whyCion -->
         <?php include("components/whyCion.php") ?>
 
+        <!-- types of biopsy -->
+        <?php include("components/typesOfBiospy5.php") ?>
+
         <!-- patientExperience -->
 
         <?php include("components/patientExperience.php") ?>
@@ -72,7 +75,7 @@
         <?php include "components/ourLocations.php" ?>
 
         <!-- faqs -->
-        <?php include("components/biopsyFaqs.php") ?>
+        <?php include("components/biopsyFaqs5.php") ?>
 
         <!-- footer -->
         <?php include("components/footer.php") ?>

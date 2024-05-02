@@ -30,19 +30,23 @@
                 margin-top: 2rem;
             }
         }
+
         @media screen and (max-width: 768px) {
             .patient-experience-container {
                 margin-top: 1rem;
             }
+
             .patient-experience-container>h1 {
-    margin-top: 1rem;
-}
+                margin-top: 1rem;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="main-app-container">
+
+        
 
         <!-- connectDB -->
         <?php include("components/connectDB.php") ?>
@@ -62,7 +66,7 @@
         <!-- whyCion -->
         <?php include("components/whyCion.php") ?>
 
-        <!-- patientExperience -->
+        <?php include("components/typesOfBiospy6.php") ?>
 
         <?php include("components/patientExperience.php") ?>
 
@@ -72,7 +76,7 @@
         <?php include "components/ourLocations.php" ?>
 
         <!-- faqs -->
-        <?php include("components/biopsyFaqs.php") ?>
+        <?php include("components/biopsyFaqs6.php") ?>
 
         <!-- footer -->
         <?php include("components/footer.php") ?>
