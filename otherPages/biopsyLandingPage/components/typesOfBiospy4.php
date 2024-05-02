@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="typesofbiopsy-container__eachcard" onclick="showCard2Inner(event)">
-                    <img src="assets/ultra-guided-biopssy.png" alt="" />
+                    <img src="assets/ultra-guided-biopsy.webp" alt="" />
                     <p>Ultrasound <br>Guided Biopsy </p>
                     <div class="banner-shape-inner">
 
@@ -78,7 +78,7 @@
             <div class="typesofbiopsy-container__cards-details-bottom">
                 <h1>*Starts At Rs. 9,999/-</h1>
                 <button class="banner__submit-btn">
-                    Book Now
+                    <a style="all:unset;" href="#">Book Now</a>
                 </button>
             </div>
         </div>
@@ -115,7 +115,7 @@
 
     .typesofbiopsy-container__cards-details ul {
         list-style-type: none;
-        padding-top: 1.5rem;
+        padding-top: 1.8rem;
 
     }
 
@@ -157,10 +157,15 @@
     }
 
     .typesofbiopsy-container__cards-details-bottom button {
-        margin-top: 0;
+        margin-top: .4rem;
     }
 
     @media screen and (min-width: 768px) {
+
+        .typesofbiopsy-container {
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
 
         .li-marker {
             background-color: var(--brandClr);
@@ -182,10 +187,21 @@
 
         .typesofbiopsy-container__eachcard {
             position: relative;
+            width: 6rem;
+            height: 6rem;
+        }
+
+        .typesofbiopsy-container__eachcard img {
+            height: 2.96rem;
+            width: 2.96rem;
+        }
+
+        .typesofbiopsy-container__eachcard p {
+            top: 4.4rem;
         }
 
         .banner-shape-inner {
-            height: 122%;
+            height: 112%;
             width: 1.4rem;
             border-radius: 0px;
             background-color: white;
@@ -195,7 +211,7 @@
         }
 
         .banner-shape-inner-prev {
-            height: 122%;
+            height: 112%;
             width: 1.4rem;
             border-radius: 0px;
             background-color: white;
@@ -213,7 +229,11 @@
         .typesofbiopsy-container__cards-details li {
             font-size: .622rem;
             font-weight: 600;
-            margin-bottom: 1.2rem;
+            margin-bottom: .8rem;
+        }
+
+        .typesofbiopsy-container__cards-details li p {
+            line-height: .584rem;
         }
 
         .typesofbiopsy-container__cards-details li:last-child {
@@ -224,7 +244,7 @@
             padding: 1rem;
             background: rgba(0, 0, 0, .1);
             background-size: cover;
-            height: 15.641rem;
+            height: 12.23rem;
             padding-left: 3rem;
             position: relative;
 
@@ -245,9 +265,9 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            width: 23.1rem;
             position: absolute;
-            bottom: 1rem;
+            bottom: .7rem;
+            width: 20.4rem;
         }
 
         .typesofbiopsy-container__cards-details-bottom h1 {
@@ -341,7 +361,7 @@
             <div class="typesofbiopsy-container__cards-details-bottom">
                 <h1>*Starts At Rs. 9,999/-</h1>
                 <button class="banner__submit-btn">
-                    Book Now
+                    <a style="all:unset;" href="#">Book Now</a>
                 </button>
             </div>
         `;
@@ -412,7 +432,7 @@ Lower risk of radiation exposure but may still involve risks such as pneumothora
             <div class="typesofbiopsy-container__cards-details-bottom">
                 <h1>*Starts At Rs. 9,999/-</h1>
                 <button class="banner__submit-btn">
-                    Book Now
+                    <a style="all:unset;" href="#">Book Now</a>
                 </button>
             </div>
         `;
