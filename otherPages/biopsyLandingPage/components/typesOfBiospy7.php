@@ -6,7 +6,6 @@ $typesOfBiopsy = [
     ['assets\typesofBiopsy\needleBiopsy.webp', 'Fine Needle Aspiration', 'A thin needle is used to extract a small sample of cells or fluid, useful for diagnosing tumors, infections, or cysts based on cellular composition.'],
     ['assets\typesofBiopsy\skinBiopsy.webp', 'Skin Biopsy', 'Skin Biopsy is a procedure where a small sample of skin tissue is removed to diagnose or evaluate any cancerous abnormality on the skin.'],
     ['assets\typesofBiopsy\image-guided-biopsy.webp', 'Image Guided Biopsy', 'An Image Guided Biopsy uses advanced imaging (like CT or Ultrasound) to precisely guide the biopsy needle for tissue sampling, aiding in the diagnosis of cancer.'],
-
 ];
 ?>
 <div class="typesofbiopsy-container">
