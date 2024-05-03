@@ -20,7 +20,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
 
         <input class="banner__first-input" type="text" placeholder="Name" name="name" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters">
         <input type="text" placeholder="Phone number" name="phone" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required">
-        <input type="text" placeholder="Message" name="message" required minlength="20" maxlength="500" title="Minimum 20 Characters Required">
+        <input type="text" placeholder="Message" name="message" maxlength="500" title="Minimum 20 Characters Required">
         <button type="submit" class="banner__submit-btn">
             Book Now
         </button>
