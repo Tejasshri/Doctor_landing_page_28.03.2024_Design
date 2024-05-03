@@ -1,28 +1,10 @@
 <?php
-
-
-$faq_array = [
-  ["lp_question" => "Is Breast Biopsy Painful?", "lp_answer" => "Discomfort is common, but significant pain is usually managed with local anesthesia or sedation.  "],
-
-  ["lp_question" => "What is done before the Breast biopsy?", "lp_answer" => "Before the biopsy, your doctor may conduct imaging tests (like mammography or ultrasound) to locate the suspicious area. Blood tests may be done to assess clotting factors.
-  "],
-  ["lp_question" => "What is done after the Breast biopsy?", "lp_answer" => "After the biopsy, pressure may be applied to the biopsy site to control bleeding. You may be given a bandage or dressing. You'll receive instructions on caring for the biopsy site and managing any discomfort.
-  "],
-
-  ["lp_question" => "What happens during a Breast Biopsy?", "lp_answer" => "During the biopsy, a small sample of breast tissue is removed using a needle (core needle biopsy) or through a small incision (surgical biopsy). Local anesthesia is used to numb the area. Imaging guidance (such as ultrasound or mammography) may be used to precisely target the biopsy site.
-
-  "],
-  ["lp_question" => "Who is going to be performing the process?", "lp_answer" => "A radiologist, breast surgeon, or interventional radiologist typically performs breast biopsies.
-
-  "],
-  ["lp_question" => "How long should I have to stay in the hospital?", "lp_answer" => "Breast biopsies are usually performed on an outpatient basis, and you can typically go home the same day.
-
-  "],
-  ["lp_question" => "When do I get my Results?  ", "lp_answer" => "Results are typically available within a few days to a week after the biopsy. Your doctor will discuss the findings with you and recommend appropriate next steps."],
-  
-  ["lp_question" => "What are the Risks involved?", "lp_answer" => "Risks of breast biopsy include temporary bruising, bleeding, infection, and rarely, damage to nearby structures. There's also a small risk of complications related to anesthesia. It's important to follow post-biopsy instructions and contact your doctor if you experience any unusual symptoms after the procedure."],
-]
-
+$sql = 'SELECT * FROM lp_faqs WHERE lp_name = "breast biopsy"';
+$result = mysqli_query($conn, $sql);
+$faq_array = [];
+while ($row = mysqli_fetch_assoc($result)) {
+  $faq_array[] = $row;
+}
 
 ?>
 <h1 class="faqs-h1">FAQs</h1>

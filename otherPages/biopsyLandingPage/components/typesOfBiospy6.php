@@ -8,7 +8,7 @@ $typesOfBiopsy = [
 ];
 ?>
 <div class="typesofbiopsy-container">
-    <h2 class="h2-text">Types of <span class="h2-span__text">Biopsy Procedures</span></h2>
+    <h2 class="h2-text">Types of <span class="h2-span__text">Oral Biopsy Procedures</span></h2>
     <div class="typesofbiopsy-container__cardscontainer">
         <?php foreach ($typesOfBiopsy as $eachCancerCard) : ?>
             <div class="typesofbiopsy-container__eachcard" onclick="displayPopup('<?php echo $eachCancerCard[1]; ?>','<?php echo $eachCancerCard[2]; ?>')">

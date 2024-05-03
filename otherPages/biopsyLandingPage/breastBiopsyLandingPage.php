@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biopsy LandingPage</title>
+    <title>Breast Biopsy Landing Page</title>
     <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/navbar.css">
@@ -54,16 +54,15 @@
         <?php include("components/navBar.php") ?>
 
         <!-- heroBanner -->
-        <?php include("components/banner5.php") ?>
+        <?php include("components/banner7.php") ?>
 
         <!-- Biopsy Test Cost in Hyderabad -->
-        <?php include("components/biopsyTestCost5.php") ?>
+        <?php include("components/biopsyTestCost7.php") ?>
 
         <!-- whyCion -->
         <?php include("components/whyCion.php") ?>
 
-        <!-- types of biopsy -->
-        <?php include("components/typesOfBiospy5.php") ?>
+        <?php include("components/typesOfBiospy7.php") ?>
 
         <!-- patientExperience -->
 
@@ -75,7 +74,7 @@
         <?php include "components/ourLocations.php" ?>
 
         <!-- faqs -->
-        <?php include("components/biopsyFaqs5.php") ?>
+        <?php include("components/biopsyFaqs7.php") ?>
 
         <!-- footer -->
         <?php include("components/footer.php") ?>

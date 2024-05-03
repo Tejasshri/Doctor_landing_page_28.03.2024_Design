@@ -1,5 +1,5 @@
 <div class="typesofbiopsy-container">
-    <h2 class="h2-text">Types of <span class="h2-span__text">Biopsy Procedures</span></h2>
+    <h2 class="h2-text">Types of <span class="h2-span__text">Liver Biopsy Procedures</span></h2>
     <div class="typesofbiopsy-inner-container">
         <div class="typesofbiopsy-container__cards-container">
             <div class="biopsy-cards">
@@ -159,8 +159,7 @@
             height: .3rem;
             border-radius: 50%;
             margin-right: .5rem;
-            margin-top: .4rem;
-
+            margin-top: .14rem;
         }
 
         .typesofbiopsy-inner-container {
@@ -188,22 +187,26 @@
         .banner-shape-inner {
             height: 112%;
             width: 1.4rem;
+            width: .5rem;
             border-radius: 0px;
             background-color: white;
-            position: absolute;
+            position: absolute; 
             right: -1.40rem;
-            border-top-right-radius: 1rem;
+            right: -.5rem;
+            /* border-top-right-radius: 1rem; */
         }
 
         .banner-shape-inner-prev {
             height: 112%;
             width: 1.4rem;
+            width: .5rem;
             border-radius: 0px;
             background-color: white;
             position: absolute;
             right: -1.40rem;
+            right: -.5rem;
             border-top-right-radius: 0rem;
-            border-bottom-right-radius: 1rem;
+            /* border-bottom-right-radius: 1rem; */
         }
 
         .typesofbiopsy-container__cards-details ul {
@@ -213,8 +216,8 @@
 
         .typesofbiopsy-container__cards-details li {
             font-size: .622rem;
-            font-weight: 600;
-            margin-bottom: .5rem;
+            font-weight: 400;
+            margin-bottom: .8rem;
         }
 
         .typesofbiopsy-container__cards-details li p {
@@ -402,7 +405,7 @@
                 </li>
             </ul>
             <div class="typesofbiopsy-container__cards-details-bottom">
-                <h1>*Starts At Rs. 9,999/-</h1>
+                <h1>*Starts At Rs. 2,999/-</h1>
                 <button class="banner__submit-btn">
                     <a style="all:unset;" href="#">Book Now</a>
                 </button>
@@ -410,5 +413,5 @@
         `;
     }
 
-    window.addEventListener('resize', () => window.location.reload())
+    // window.addEventListener('resize', () => window.location.reload())
 </script>

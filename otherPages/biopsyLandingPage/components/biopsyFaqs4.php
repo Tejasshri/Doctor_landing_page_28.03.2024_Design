@@ -1,29 +1,11 @@
 <?php
-$sql = 'SELECT * FROM lp_faqs WHERE lp_name = "biopsy_landing_page"';
+$sql = 'SELECT * FROM lp_faqs WHERE lp_name = "lung biopsy"';
 $result = mysqli_query($conn, $sql);
 $faq_array = [];
 while ($row = mysqli_fetch_assoc($result)) {
   $faq_array[] = $row;
 }
 
-
-$faq_array = [
-  ["lp_question" => "Is Lung Biopsy Painful?  ", "lp_answer" => "The procedure is usually performed under local anesthesia, so discomfort is minimal. However, some patients may experience pressure or mild pain during the biopsy.
-  "],
-  ["lp_question" => "What is done before the lung biopsy?  ", "lp_answer" => "Your doctor may instruct you to refrain from eating or drinking for a certain period of time before the biopsy. Also, it is advised to temporarily stop taking certain medications before lung biopsy, especially those that can affect blood clotting.
-  "],
-  ["lp_question" => "What is done after the lung biopsy?", "lp_answer" => "Immediately after the biopsy, you will be closely monitored for a few hours to check for any complications such as bleeding or pneumothorax (collapsed lung). Post-procedure imaging (like chest X-rays) may be performed to assess lung status.
-  "],
-  ["lp_question" => "What happens during a lung Biopsy?", "lp_answer" => "During the biopsy, a needle or biopsy instrument is guided into the lung tissue through the chest wall or airways (bronchoscopy) to obtain a sample of the abnormal tissue. This is often done under imaging guidance (CT or ultrasound) for accuracy.
-  "],
-  ["lp_question" => "Who is going to be performing the process?", "lp_answer" => "The biopsy is typically performed by a radiologist (for CT-guided biopsies) or a pulmonologist (for bronchoscopy-guided biopsies), with assistance from trained nurses and technologists.
-  "],
-  ["lp_question" => "How long should I have to stay in the hospital?", "lp_answer" => "Most patients can go home the same day after a few hours of observation, assuming no complications occur. In rare cases where complications arise, an overnight hospital stay may be necessary.
-  "],
-  ["lp_question" => "When do I get my Results?  ", "lp_answer" => "It usually takes 3-6 days to receive biopsy results, depending solely on the complexity of the lung biopsy and laboratory processing time. At CION Cancer Clinics, we are committed to providing you with the biopsy results as soon as possible.
-  "],
-  ["lp_question" => "What are the Risks involved?", "lp_answer" => "Risks include bleeding, pneumothorax (collapsed lung), infection, and rarely, damage to nearby structures like blood vessels or airways. Your healthcare team takes precautions to minimize these risks during the procedure."],
-]
 
 
 ?>
