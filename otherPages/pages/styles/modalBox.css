@@ -23,7 +23,7 @@ div:where(.swal2-container) button:where(.swal2-close):hover {
 .popup-container__banner-image-section {
   width: 16.81rem;
   height: 16.5rem;
-  background-image: url(../assets/popupBanner.webp);
+  background-image: url(../assets/biopsyImages/popupBanner.webp);
   background-size: cover;
   display: flex;
   flex-direction: column;

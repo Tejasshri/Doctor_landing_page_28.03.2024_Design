@@ -4,14 +4,14 @@
         <ul>
             <?php foreach ($costOfBiopsyArray as $eachBiopsyCard) :  ?>
                 <li>
-                    <img class="costof-biopsy__subcontainer__img1" src="..\assets\costOfBiopsy\PolygonPlayIcon.webp" alt="li polygon icon" />
-                    <img class="costof-biopsy__subcontainer__img" src="..\assets\costOfBiopsy\PolygonSmallPlay.png" alt="playIcon" />
+                    <img class="costof-biopsy__subcontainer__img1" src="..\assets/biopsyImages\costOfBiopsy\PolygonPlayIcon.webp" alt="li polygon icon" />
+                    <img class="costof-biopsy__subcontainer__img" src="..\assets/biopsyImages\costOfBiopsy\PolygonSmallPlay.png" alt="playIcon" />
                     <p><?php echo $eachBiopsyCard[0]; ?></p>
                 </li>
             <?php endforeach; ?>
         </ul>
         <div>
-            <img src="..\assets\costOfBiopsy\costOfBiopsyImg.webp" alt=" Types of Biopsy Image" />
+            <img src="..\assets/biopsyImages\costOfBiopsy\costOfBiopsyImg.webp" alt=" Types of Biopsy Image" />
         </div>
     </div>
 </div>

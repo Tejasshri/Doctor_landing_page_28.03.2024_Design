@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biopsy LandingPage</title>
-    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/biopsyImages/favicon.webp" type="image/x-icon">
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/biopsyTestCost.css">
-    <link rel="stylesheet" href="../styles/biopsyProcess.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/biopsyTestCost.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/biopsyProcess.css">
     <link rel="stylesheet" href="../styles/getInTouch.css">
     <link rel="stylesheet" href="../styles/whyCion.css">
     <link rel="stylesheet" href="../styles/ourlocation.css">
-    <link rel="stylesheet" href="../styles/biopsyFaqs.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/biopsyFaqs.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/banner.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/banner.css">
     <link rel="stylesheet" href="../styles/whyCion.css">
-    <link rel="stylesheet" href="../styles/costOfBiopsy.css">
-    <link rel="stylesheet" href="../styles/typesOfBiopsy.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/costOfBiopsy.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/typesOfBiopsy.css">
     <link rel="stylesheet" href="../styles/modalBox.css">
     <link rel="stylesheet" href="../styles/patientExperience.css">
     <script src="../javascript/index.js" defer></script>
@@ -67,7 +67,7 @@
         <?php include("../components/connectDB.php") ?>
 
         <!-- arrays -->
-        <?php include("../components/array.php") ?>
+        <?php include("../components/biopsyComponents/array.php") ?>
 
         <!-- NavBar -->
         <?php include("../components/navBar.php") ?>
@@ -76,13 +76,13 @@
         <?php include("components/banner2.php") ?>
 
         <!-- Biopsy Test Cost in Hyderabad -->
-        <?php include("../components/biopsyTestCost.php") ?>
+        <?php include("../components/biopsyComponents/biopsyTestCost.php") ?>
 
         <!-- whyCion -->
         <?php include("../components/whyCion.php") ?>
 
         <!-- type of biopsy -->
-        <?php include("../components/typesOfBiospy.php") ?>
+        <?php include("../components/biopsyComponents/typesOfBiospy.php") ?>
 
         <!-- patientExperience -->
 
@@ -92,15 +92,15 @@
         <?php include("../components/getInTouch.php") ?>
 
         <!-- How is the Biopsy Process Done ? -->
-        <?php include("../components/biopsyProcess.php") ?>
+        <?php include("../components/biopsyComponents/biopsyProcess.php") ?>
 
         <!-- cost of biopsy -->
-        <?php include("../components/costOfBiopsy.php") ?>
+        <?php include("../components/biopsyComponents/costOfBiopsy.php") ?>
 
         <?php include "../components/ourLocations.php" ?>
 
         <!-- faqs -->
-        <?php include("../components/biopsyFaqs.php") ?>
+        <?php include("../components/biopsyComponents/biopsyFaqs.php") ?>
 
         <!-- footer -->
         <?php include("../components/footer.php") ?>

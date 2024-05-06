@@ -1,0 +1,376 @@
+.biopsy-test-cost {
+  display: flex;
+  flex-direction: column;
+  gap: 1.22rem;
+  justify-content: center;
+  margin-top: 1.32rem;
+}
+.biopsy-test-cost__table th {
+  background-color: var(--brandClr);
+  color: white;
+  font-size: 0.63rem;
+  font-weight: 600;
+  border: 0;
+}
+.biopsy-test-cost__table tr:first-child {
+  width: 20rem;
+  height: 1.94rem;
+}
+.biopsy-test-cost__table td {
+  font-size: 1rem;
+  width: 8.89rem;
+}
+.biopsy-test-cost__table {
+  width: 17.9rem;
+  height: 13.4rem;
+  font-weight: 600;
+  margin-left: 0.45rem;
+}
+.biopsy-test-cost__table__td {
+  color: var(--brandClr);
+  text-align: center;
+  width: 8.98rem;
+}
+.biopsy-test-cost__text h1 {
+  color: var(--brandClr);
+  font-size: 1rem;
+  position: relative;
+  bottom: 0.4rem;
+  text-align: center;
+}
+
+.biopsy-test-cost__text p {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 16rem;
+  line-height: 1.25rem;
+  margin-left: 1.36rem;
+}
+
+.biopsy-test-cost__text:nth-child(2) {
+  margin-top: 0.45rem;
+}
+
+.biopsy-test-cost__table__td1 {
+  padding-left: 0.5rem;
+}
+.biopsy-test-cost__text__p2 {
+  padding: 0.52rem 0 0.52rem 0;
+}
+
+.biopsy-test-cost__text button {
+  background-color: var(--brandClr);
+  font-size: 1rem;
+  border: none;
+  width: 12.31rem;
+  height: 2.59rem;
+  border-radius: 0.27rem;
+  font-weight: 700;
+  margin: 1rem 0 0 3.18rem;
+}
+
+.biopsy-test-cost__text span {
+  color: var(--brandClr);
+  font-weight: 400;
+}
+table,
+tr,
+td {
+  border: 0.01rem solid #000000;
+}
+table {
+  border-top: none;
+}
+.biopsy-test-cost__text b {
+  color: #000000;
+}
+.biopsy-test-cost__table__td > b {
+  font-size: 0.35rem;
+  position: relative;
+  left: 0.2rem;
+  top: 0.5rem;
+}
+.biopsy-test-cost__table__td > span {
+  position: relative;
+  left: 2rem;
+}
+
+.biopsy-test-cost__table-large-devices {
+  display: none;
+}
+
+#myDialog {
+  justify-self: center;
+  align-self: center;
+  border: none;
+  width: 16.81rem;
+  height: 22.95rem;
+  background-color: var(--pinkClr);
+}
+.myDialog__main-container-sm-h1 {
+  font-size: 0.73rem;
+  color: var(--brandClr);
+  text-align: center;
+  padding: 0.8rem 0 0 0;
+}
+.myDialog__main-container-md-h1 {
+  display: none;
+}
+
+.myDialog__main-container-h1 > h1 {
+  display: none;
+}
+.myDialog__main-container-name,
+.myDialog__main-container-phone {
+  width: 14.18rem;
+  height: 1.94rem;
+  border-radius: 0.19rem;
+  border: none;
+  outline: none;
+  padding-left: 0.8rem;
+  box-shadow: 0.7px 0.7px 1.41px 0px #3e434740;
+}
+.myDialog__main-container form > button {
+  width: 7.07rem;
+  height: 1.81rem;
+  background-color: #e45b92;
+  color: white;
+  border-radius: 0.15rem;
+  font-size: 0.63rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.myDialog__main-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.myDialog__main-container-phone {
+  margin-top: 1rem;
+}
+.myDialog__fill-form {
+  width: 13.39rem;
+  height: 8.27rem;
+  background-color: var(--brandClr);
+  border-radius: 0.4rem;
+  margin: 1.5rem 0 0 1.5rem;
+  padding-left: 0.68rem;
+  padding-top: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.myDialog__fill-form > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+.myDialog__p1 {
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  margin-left: 0.6rem;
+  line-height: 1rem;
+  width: 8.68rem;
+  margin: auto;
+}
+.myDialog__p {
+  width: 2.86rem;
+  height: 1.13rem;
+  background-color: white;
+  border-radius: 0.09rem;
+  font-size: 0.72rem;
+  color: black;
+  font-weight: 600;
+  padding: 0 0.35rem;
+  margin: auto;
+}
+.myDialog__img {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  left: 15rem;
+  top: 0.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .biopsy-test-cost {
+    flex-direction: row !important;
+    gap: 1.88rem;
+    margin-top: 2.26rem;
+  }
+  .biopsy-test-cost__table td {
+    font-size: 0.62rem;
+    height: 1.773rem;
+    width: 10.03rem;
+  }
+  .biopsy-test-cost__table {
+    width: 20rem;
+    margin-left: 0;
+  }
+  .biopsy-test-cost__text h1 {
+    width: 9.94rem;
+    line-height: 1.26rem;
+    text-align: unset;
+  }
+  .biopsy-test-cost__text p {
+    font-size: 0.62rem;
+    width: 9.56rem;
+    line-height: 0.72rem;
+    position: relative;
+    bottom: 0.35rem;
+    margin-left: 0rem;
+  }
+  .biopsy-test-cost__text button {
+    font-size: 0.62rem;
+    width: 7.45rem;
+    height: 1.07rem;
+    border-radius: 0.11rem;
+    font-weight: 600;
+    margin: 0rem;
+  }
+  .biopsy-test-cost__table__td > b {
+    font-size: 0.33rem;
+    position: relative;
+    left: 1.6rem;
+    top: 0.6rem;
+  }
+  .biopsy-test-cost__table__td > span {
+    position: relative;
+    left: 1.9rem;
+  }
+  .biopsy-test-cost__table-small-devices {
+    display: none !important;
+  }
+  .biopsy-test-cost__table-large-devices {
+    display: block;
+    height: 14.37rem;
+  }
+  .biopsy-test-cost__text {
+    margin-top: 0.2rem;
+  }
+
+  #myDialog {
+    justify-self: center;
+    align-self: center;
+    border: none;
+    width: 25.25rem;
+    height: 13.8rem;
+    background-color: var(--pinkClr);
+  }
+  .myDialog__main-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .myDialog__main-container-h1 {
+    width: 12.47rem;
+    height: 13.8rem;
+    background-image: url(../assets/biopsyImages/DoctorImage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .myDialog__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .myDialog__main-container-sm-h1 {
+    display: none;
+  }
+
+  .myDialog__main-container-h1 > h1 {
+    font-size: 1.22rem;
+    color: white;
+    text-align: center;
+    padding: 0rem 0 0 0;
+    margin-top: 4.5rem;
+    line-height: 1.47rem;
+    display: block;
+  }
+  .myDialog__main-container-md-h1 {
+    font-size: 0.73rem;
+    color: var(--brandClr);
+    text-align: center;
+    width: 08rem;
+    padding: 0.3rem 0 0.4rem 0;
+    display: block;
+  }
+  .myDialog__main-container-name,
+  .myDialog__main-container-phone {
+    width: 10.9rem;
+    height: 1.28rem;
+    border-radius: 0.11rem;
+    border: none;
+    outline: none;
+    font-size: 0.45rem;
+    padding-left: 0.4rem;
+    box-shadow: 1px 1px 2px 0px #3e434740;
+  }
+  .myDialog__main-container form > button {
+    width: 5rem;
+    height: 1.4rem;
+    background-color: #e45b92;
+    color: white;
+    border-radius: 0.11rem;
+    font-size: 0.62rem;
+    border: none;
+    margin-top: 0.7rem;
+  }
+  .myDialog__main-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    margin-bottom: 0.7rem;
+  }
+  .myDialog__main-container-phone {
+    margin-top: 0.7rem;
+  }
+  .myDialog__fill-form {
+    width: 10.9rem;
+    height: 3.86rem;
+    background-color: var(--brandClr);
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-left: 0.5rem;
+    padding-top: 0.45rem;
+    margin: unset;
+  }
+  .myDialog__fill-form > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .myDialog__p1 {
+    font-size: 0.62rem;
+    color: white;
+    font-weight: 700;
+    margin-left: 0.3rem;
+  }
+  .myDialog__p {
+    width: 1.54rem;
+    height: 0.64rem;
+    background-color: white;
+    border-radius: 0.09rem;
+    font-size: 0.41rem;
+    color: black;
+    padding: 0rem 0 0 0.2rem;
+  }
+  .myDialog__img {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: 24rem;
+    top: 0.2rem;
+  }
+}

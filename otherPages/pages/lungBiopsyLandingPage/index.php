@@ -8,17 +8,17 @@
     <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon">
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/biopsyTestCost.css">
-    <link rel="stylesheet" href="../styles/biopsyProcess.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/biopsyTestCost.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/biopsyProcess.css">
     <link rel="stylesheet" href="../styles/getInTouch.css">
     <link rel="stylesheet" href="../styles/whyCion.css">
     <link rel="stylesheet" href="../styles/ourlocation.css">
-    <link rel="stylesheet" href="../styles/biopsyFaqs.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/biopsyFaqs.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/banner.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/banner.css">
     <link rel="stylesheet" href="../styles/whyCion.css">
-    <link rel="stylesheet" href="../styles/costOfBiopsy.css">
-    <link rel="stylesheet" href="../styles/typesOfBiopsy.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/costOfBiopsy.css">
+    <link rel="stylesheet" href="../styles/biopsyStyles/typesOfBiopsy.css">
     <link rel="stylesheet" href="../styles/modalBox.css">
     <link rel="stylesheet" href="../styles/patientExperience.css">
     <script src="../javascript/index.js" defer></script>
@@ -30,13 +30,15 @@
                 margin-top: 2rem;
             }
         }
+
         @media screen and (max-width: 768px) {
             .patient-experience-container {
                 margin-top: 1rem;
             }
+
             .patient-experience-container>h1 {
-    margin-top: 1rem;
-}
+                margin-top: 1rem;
+            }
         }
     </style>
 </head>
@@ -48,7 +50,7 @@
         <?php include("../components/connectDB.php") ?>
 
         <!-- arrays -->
-        <?php include("../components/array.php") ?>
+        <?php include("../components/biopsyComponents/array.php") ?>
 
         <!-- NavBar -->
         <?php include("../components/navBar.php") ?>

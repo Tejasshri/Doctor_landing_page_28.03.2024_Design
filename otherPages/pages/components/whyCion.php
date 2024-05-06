@@ -14,19 +14,19 @@
             </div>
             <div class="why-cion__animation-box">
                 <div class="why-cion__center-box">
-                    <img src="../assets/hospital.webp" alt="hospital image">
+                    <img src="../assets/biopsyImages/hospital.webp" alt="hospital image">
                     <p>State-of-the-Art Facilities</p>
                 </div>
                 <div class="why-cion__center-box">
-                    <img src="../assets/doctor.webp" alt="doctor">
+                    <img src="../assets/biopsyImages/doctor.webp" alt="doctor">
                     <p><span>Most</span> <span>Highly</span> Experienced Doctors</p>
                 </div>
                 <div class="why-cion__center-box">
-                    <img src="../assets/Patient.png" alt="patient">
+                    <img src="../assets/biopsyImages/Patient.png" alt="patient">
                     <p>Patient Centric Approach</p>
                 </div>
                 <div class="why-cion__center-box">
-                    <img src="../assets/healthcare.webp" alt="healthcare">
+                    <img src="../assets/biopsyImages/healthcare.webp" alt="healthcare">
                     <p>Best Quality <br>of Care</p>
                 </div>
             </div>

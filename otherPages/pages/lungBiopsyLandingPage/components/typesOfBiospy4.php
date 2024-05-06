@@ -4,14 +4,14 @@
         <div class="typesofbiopsy-container__cards-container">
             <div class="biopsy-cards">
                 <div class="typesofbiopsy-container__eachcard" onclick="showCard1Inner(event)">
-                    <img src="../assets/typesofBiopsy/needleBiopsy.webp" alt="" />
+                    <img src="../assets/biopsyImages/typesofBiopsy/needleBiopsy.webp" alt="" />
                     <p>CT Guided Biopsy</p>
                     <div class="banner-shape-inner-prev">
 
                     </div>
                 </div>
                 <div class="typesofbiopsy-container__eachcard" onclick="showCard2Inner(event)">
-                    <img src="../assets/ultra-guided-biopsy.webp" alt="" />
+                    <img src="../assets/biopsyImages/ultra-guided-biopsy.webp" alt="" />
                     <p>Ultrasound <br>Guided Biopsy </p>
                     <div class="banner-shape-inner">
 
@@ -93,7 +93,7 @@
 
     .typesofbiopsy-container__cards-details {
         padding: 1rem;
-        background: url("./../assets/biopsyBanner.jpg");
+        background: url("./../assets/biopsyImages/biopsyBanner.jpg");
         background-size: cover;
         background-color: transparent;
 
@@ -289,7 +289,7 @@
     let shapeEl1 = document.querySelector(".banner-shape-inner");
     let shapeEl2 = document.querySelector(".banner-shape-inner-prev");
     let bgInSmall = document.querySelector(".typesofbiopsy-container__cards-details");
-    // bgInSmall.style.backgroundImage = "url(./../assets/biopsyBanner.jpg)";
+    // bgInSmall.style.backgroundImage = "url(./../assets/biopsyImages/biopsyBanner.jpg)";
     shapeEl1.style.display = "";
     shapeEl2.style.display = "none";
     if (window.screen.width < 768) {
@@ -301,7 +301,7 @@
         if (window.screen.width < 768) {
             shapeEl1.style.display = "none";
             shapeEl2.style.display = "none";
-            bgInSmall.style.backgroundImage = "url('./../assets/biopsyBanner.jpg')";
+            bgInSmall.style.backgroundImage = "url('./../assets/biopsyImages/biopsyBanner.jpg')";
         } else {
             shapeEl2.style.display = "none";
             shapeEl1.style.display = "inline-block";
@@ -377,7 +377,7 @@
         if (window.screen.width < 768) {
             shapeEl1.style.display = "none";
             shapeEl2.style.display = "none";
-            bgInSmall.style.backgroundImage = "url('./../assets/biopsyBanner2.jpg')";
+            bgInSmall.style.backgroundImage = "url('./../assets/biopsyImages/biopsyBanner2.jpg')";
         } else {
             shapeEl2.style.display = "inline-block";
             shapeEl1.style.display = "none";

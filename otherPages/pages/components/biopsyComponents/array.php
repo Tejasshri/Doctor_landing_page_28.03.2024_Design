@@ -16,14 +16,14 @@ $biopsyProcess=[
 ];
 
 $typesOfBiopsy = [
-    ['assets\typesofBiopsy\needleBiopsy.webp', 'Needle Biopsy', 'A Needle Biopsy is a minimally invasive procedure that uses a thin needle to retrieve a small cancer tissue sample from the target area for examination under a microscope.'],
-    ['assets\typesofBiopsy\surgicalBiopsy.webp', 'Surgical Biopsy', 'A Surgical Biopsy is a procedure where a cancer tissue sample is removed through an incision for diagnosis, typically performed under anesthesia in an operating room. '],
-    ['assets\typesofBiopsy\endoscopicBiopsy.webp', 'Endoscopic Biopsy', 'Endoscopic Biopsy is a medical procedure where a flexible tube with a camera and a small cutting tool is inserted into the body to obtain tissue samples for diagnosis.'],
-    ['assets\typesofBiopsy\imageGuidedBiopsy.webp', 'Image-Guided Biopsy', ' An Image-Guided Biopsy uses advanced imaging (like ultrasound or MRI) to precisely guide the biopsy needle for tissue sampling, aiding in the diagnosis of cancer.'],
-    ['assets\typesofBiopsy\punchBiopsy.webp', 'Punch Biopsy', 'A Punch Biopsy is a medical procedure where a small circular blade, called a punch, is used to remove a cylindrical sample of tissue from the body for cancer diagnosis.'],
-    ['assets\typesofBiopsy\skinBiopsy.webp', 'Skin Biopsy', 'Skin Biopsy is a procedure where a small sample of skin tissue is removed to diagnose or evaluate skin cancer.'],
-    ['assets\typesofBiopsy\liquidBiopsy.webp', 'Liquid Biopsy', 'Liquid Biopsy is a non-invasive method which detects genetic material shed from tumors in bodily fluids like blood or urine used for cancer diagnosis and monitoring.'],
-    ['assets\typesofBiopsy\BoneBiopsy.webp', ' Bone Marrow Biopsy', 'A bone marrow biopsy is a medical procedure where a small sample of bone marrow is extracted, typically from the hip bone to assess conditions such as leukemia, lymphoma or other blood disorders.'],
+    ['assets\biopsyImages\typesofBiopsy\needleBiopsy.webp', 'Needle Biopsy', 'A Needle Biopsy is a minimally invasive procedure that uses a thin needle to retrieve a small cancer tissue sample from the target area for examination under a microscope.'],
+    ['assets\biopsyImages\typesofBiopsy\surgicalBiopsy.webp', 'Surgical Biopsy', 'A Surgical Biopsy is a procedure where a cancer tissue sample is removed through an incision for diagnosis, typically performed under anesthesia in an operating room. '],
+    ['assets\biopsyImages\typesofBiopsy\endoscopicBiopsy.webp', 'Endoscopic Biopsy', 'Endoscopic Biopsy is a medical procedure where a flexible tube with a camera and a small cutting tool is inserted into the body to obtain tissue samples for diagnosis.'],
+    ['assets\biopsyImages\typesofBiopsy\imageGuidedBiopsy.webp', 'Image-Guided Biopsy', ' An Image-Guided Biopsy uses advanced imaging (like ultrasound or MRI) to precisely guide the biopsy needle for tissue sampling, aiding in the diagnosis of cancer.'],
+    ['assets\biopsyImages\typesofBiopsy\punchBiopsy.webp', 'Punch Biopsy', 'A Punch Biopsy is a medical procedure where a small circular blade, called a punch, is used to remove a cylindrical sample of tissue from the body for cancer diagnosis.'],
+    ['assets\biopsyImages\typesofBiopsy\skinBiopsy.webp', 'Skin Biopsy', 'Skin Biopsy is a procedure where a small sample of skin tissue is removed to diagnose or evaluate skin cancer.'],
+    ['assets\biopsyImages\typesofBiopsy\liquidBiopsy.webp', 'Liquid Biopsy', 'Liquid Biopsy is a non-invasive method which detects genetic material shed from tumors in bodily fluids like blood or urine used for cancer diagnosis and monitoring.'],
+    ['assets\biopsyImages\typesofBiopsy\BoneBiopsy.webp', ' Bone Marrow Biopsy', 'A bone marrow biopsy is a medical procedure where a small sample of bone marrow is extracted, typically from the hip bone to assess conditions such as leukemia, lymphoma or other blood disorders.'],
 ];
 
 
