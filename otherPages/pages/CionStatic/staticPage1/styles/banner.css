@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --shadow: 0 4px 16px 0 #bfbfbf;
+}
+
+
+.banner {
+  flex-grow: 1;
+  font-size: bree serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__header {
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  color: var(--brandClr);
+}
+
+.banner__title:first-child {
+  font-size: 1rem;
+}
+
+.banner__header > p,
+.banner__description {
+  font-size: 0.59rem;
+  color: grey;
+  max-width: 15rem;
+  margin-top: 0.2rem;
+}
+
+.banner__q-an-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.banner__q-an-a-container {
+  width: 16.45rem;
+  box-shadow: var(--shadow);
+  border-radius: 0.3rem;
+  padding: 0.59rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner__q-an-a-container h1 {
+  font-size: 0.636rem;
+  color: var(--brandClr);
+}
+.banner__q-an-a-container p {
+  font-size: 0.59rem;
+  color: #888484;
+  width: 14.77rem;
+}
+.banner__q-an-a-container p > span {
+  color: rgb(48, 47, 47);
+}
+
+.banner__q-an-a-container ul {
+  margin-top: 0;
+  margin: auto;
+}
+
+.banner__q-an-a-container ul li {
+  font-size: 0.59rem;
+  text-align: left;
+  color: #888484;
+}
+
+li::marker {
+  color: black;
+}
+
+.banner__gravience-officer-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__gravience-officer-details > p {
+  text-align: center;
+  font-size: 0.6rem;
+  color: grey;
+  max-width: 14rem;
+}
+.banner__gravience-officer-details > h1 {
+  text-align: center;
+  font-size: 0.62rem;
+  color: var(--brandClr);
+  /* text-decoration: underline; */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 30px;
+  max-width: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.card h3 {
+  color: #802a8f;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.card p {
+  color: #888484;
+  margin: 5px 0;
+}
+
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card ul li {
+  color: #979595;
+  margin-bottom: 5px;
+}
+
+.card ul li strong {
+  font-weight: bold;
+}
+
+.card ul li:first-child {
+  font-size: 0.62rem;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+}
+.card ul li:nth-child(2) {
+  font-size: 0.5rem;
+  color: #888484;
+  font-weight: 400;
+}
+.card ul li:nth-child(3) {
+  font-size: 0.5rem;
+  color: #888484;
+  font-weight: 400;
+}
+.card ul li:last-child {
+  font-size: 0.6rem;
+  color: #888484;
+  font-weight: 400;
+  margin-top: 0.6rem;
+}
+.card ul a {
+  all: unset;
+  color: rgba(123, 62, 65, 0.8);
+  cursor: pointer;
+  border: 0.06rem solid var(--brandClr);
+  border-radius: 0.1rem;
+  font-size: 0.8rem;
+  color: var(--brandClr);
+  font-weight: 400;
+  padding: 0.05rem 0.2rem;
+}
+
+hr {
+  margin: 1rem 0;
+  border: 1px solid var(--brandClr);
+  width: 90%;
+}
+
+.card__title {
+  font-size: 0.62rem;
+  color: var(--brandClr);
+}
+
+.banner__grievance {
+  font-size: 0.62rem !important;
+  margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .banner__grievance {
+    font-size: 0.62rem !important;
+  }
+  * {
+    /* border: 1px solid red; */
+  }
+
+  .banner__title {
+    font-size: 0.62rem;
+  }
+
+  .banner__header {
+    align-self: center;
+    align-items: initial;
+    width: 33rem;
+    text-align: left;
+    margin: 0 1rem;
+  }
+
+  .banner__header > h1 {
+    text-align: left;
+    font-size: 0.62rem;
+  }
+  .banner__header > p {
+    max-width: initial;
+  }
+
+  .banner__q-an-a {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    margin-top: 1rem;
+  }
+
+  .banner__q-an-a-container {
+    width: 33rem;
+    padding: auto;
+    text-align: initial;
+    align-items: stretch;
+  }
+  .banner__q-an-a-container h1 {
+    font-size: 0.636rem;
+    color: var(--brandClr);
+  }
+  .banner__q-an-a-container p {
+    font-size: 0.59rem;
+    color: #888484;
+    width: auto;
+    text-align: left !important;
+  }
+  .banner__q-an-a-container p > span {
+    color: rgb(48, 47, 47);
+  }
+
+  .banner__q-an-a-container ul {
+    margin-top: 0;
+    margin: auto;
+  }
+
+  .banner__q-an-a-container ul li {
+    font-size: 0.59rem;
+    text-align: left;
+    color: #888484;
+  }
+
+  li::marker {
+    color: black;
+  }
+
+  .banner__gravience-officer-details {
+    align-items: initial;
+    width: 90%;
+  }
+
+  .banner__gravience-officer-details > p {
+    text-align: left;
+    font-size: 0.6rem;
+    color: grey;
+    max-width: none;
+  }
+  .banner__gravience-officer-details > h1 {
+    text-align: left;
+    font-size: 0.632rem;
+    color: var(--brandClr);
+    /* text-decoration: underline; */
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    padding: 30px;
+    max-width: none;
+    width: 33rem;
+    display: flex;
+    align-items: initial;
+    text-align: left;
+  }
+
+  .card h3 {
+    color: #802a8f;
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+
+  .card p {
+    margin: 5px 0;
+  }
+
+  .card ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .card ul li {
+    color: #979595;
+    margin-bottom: 5px;
+  }
+
+  .card ul li strong {
+    font-weight: bold;
+  }
+
+  .card ul li:first-child {
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+  }
+  .card ul li:nth-child(2) {
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+  .card ul li:nth-child(3) {
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+  .card ul li:last-child {
+    font-size: 0.5rem;
+    font-weight: 400;
+    margin-top: 0.6rem;
+  }
+  .card ul a {
+    all: unset;
+    color: rgba(123, 62, 65, 0.8);
+    cursor: pointer;
+    border: 0.06rem solid var(--brandClr);
+    border-radius: 0.1rem;
+    font-size: 0.8rem;
+    color: var(--brandClr);
+    font-weight: 400;
+    padding: 0.05rem 0.2rem;
+  }
+
+  .banner__description {
+    max-width: none;
+    text-align: left !important;
+  }
+
+  .banner__gravience-officer-details > .card:last-child {
+    margin-top: 0.3rem;
+    width: 100%;
+  }
+  .card:last-child {
+    margin-top: 0;
+  }
+  .banner__q-an-a-container:last-child {
+    margin-bottom: 0;
+  }
+
+  .banner__title * {
+    /* border: 1px solid red; */
+  }
+}

@@ -26,8 +26,11 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
         </button>
     </form>
     <div class="banner__safety-hands-section">
-        <h1 class="banner__safety-hands-title">Safest Hands for <br><span>Most Accurate</span> Biopsy Test</h1>
-        <p>Expert Surgeons Performing at <span style="font-weight: 700;">Affordable Costs</span></p>
+        <h1 class="banner__safety-hands-title">
+            Efficient Biopsies Aiming<br> at
+            <span>Minimizing Patient</span> Discomfort
+        </h1>
+        <p>Minimizing Side Effects by involving an Expert Oncologist rather than a generic Diagnostician</p>
         <div class="banner__specialilty-texts">
             <p>
                 <img src="../assets/banner-icon-1.webp" alt="cost image">

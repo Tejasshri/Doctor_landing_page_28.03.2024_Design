@@ -11,7 +11,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
             <a class="biopsy-banner__call-link-1" style="all:unset; display:flex;align-items:center; justify-content: center;" href="tel:18001202676"><img src="../assets/phoneImg.webp" alt="phone-icon"></a>
             <span style="all:unset;"><a lass="biopsy-banner__call-link-2" href="tel:7032656153" style="all:unset;">+91 7032656153</a> / <a lass="biopsy-banner__call-link-3" style="all:unset;" href="tel:9989835053">9989835053</a></span>
         </div>
-        <h1 class="banner__form-heading">Book Your <span style="color:var(--brandClr);">Biopsy Test Now !</span></h1>
+        <h1 class="banner__form-heading">Book Your <span style="color:var(--brandClr); ">Oral Biopsy <br class="banner__form-heading-br-el"> Now!</span></h1>
 
         <input type="hidden" name="utm_source" id="utm_source" value="<?php echo $utm_source; ?>">
         <input type="hidden" name="utm_campaign" id="utm_campaign" value="<?php echo $utm_campaign; ?>">
@@ -26,12 +26,12 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
         </button>
     </form>
     <div class="banner__safety-hands-section">
-        <h1 class="banner__safety-hands-title">Safest Hands for <br><span>Most Accurate</span> Biopsy Test</h1>
+        <h1 class="banner__safety-hands-title">Safest Hands for <Oral>Most <br class="br-1"> Accurate Oral Biopsies <span>@Rs. 999/-</span></h1>
         <p>Expert Surgeons Performing at <span style="font-weight: 700;">Affordable Costs</span></p>
         <div class="banner__specialilty-texts">
             <p>
                 <img src="../assets/banner-icon-1.webp" alt="cost image">
-                Biopsy Test cost starts&nbsp;<span>@Rs. 999/-</span>
+                Oral Biopsy Test Cost&nbsp;<span>@Rs. 999/-</span>
             </p>
             <p>
                 <img src="../assets/banner-icon-2.webp" alt="cost image">
@@ -39,7 +39,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
             </p>
             <p>
                 <img src="../assets/banner-icon-3.webp" alt="cost image">
-                Ameerpet, Kukatpally, Masab Tank,<br> Tolichowki, Komapally, Erragada
+                Our Locations - Ameerpet, Kukutpally,<br> Himayatnagar
             </p>
         </div>
     </div>
@@ -61,3 +61,44 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
 <div class="invisible-form-box">
 
 </div>
+<style>
+    * {
+        /* border: 1px solid red; */
+    }
+
+    @media screen and (max-width: 768px) {
+        .banner__form-heading {
+            width: auto;
+        }
+
+        .banner__form {
+            top: 22.2rem;
+        }
+
+        .our-locations__text-section {
+            margin-top: 1.4rem;
+        }
+
+        .why-cion {
+            padding-top: 1rem;
+        }
+
+    }
+
+    @media screen and (min-width: 768px) {
+        .banner__safety-hands-title {
+            width: 17rem;
+        }
+
+        .banner__form-heading-br-el {
+            display: none;
+        }
+
+        .br-1 {
+            display: none;
+        }
+
+
+
+    }
+</style>
